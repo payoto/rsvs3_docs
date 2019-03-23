@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['length',['Length',['../classedge.html#a1cce365b7d1ef452df84f1fa2d7d86cc',1,'edge']]],
-  ['lengthsquared',['LengthSquared',['../classedge.html#a29f496890e8d360522f5c0f3b447d56c',1,'edge']]],
-  ['lineartransform',['LinearTransform',['../classmesh.html#a3943e6f35b07417e8b284bb9679bce9d',1,'mesh']]],
-  ['lineartransformfamily',['LinearTransformFamily',['../classmesh.html#a67a2c27e2f1218f8d4353944c2fa225b',1,'mesh']]]
+  ['islength0',['IsLength0',['../classedge.html#a66243d3ef72b8549ac6e552e1a9c0e83',1,'edge']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['isconstract',['isConstrAct',['../class_r_s_v_scalc.html#a5af0ff15b0770b6b375098f33c1b42b1',1,'RSVScalc']]],
-  ['isdvact',['isDvAct',['../class_r_s_v_scalc.html#a966daeed8d58c6f62e6c1fd8a80ab832',1,'RSVScalc']]]
+  ['gridsizebackground',['gridsizebackground',['../classparam_1_1voxel.html#abef9de709e926623c6e831a194364a28',1,'param::voxel']]],
+  ['gridsizesnake',['gridsizesnake',['../classparam_1_1voxel.html#a6895b435265a17c8f7b70af29e669e92',1,'param::voxel']]]
 ];

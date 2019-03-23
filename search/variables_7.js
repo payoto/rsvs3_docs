@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['nconstr',['nConstr',['../class_r_s_v_scalc.html#a8bce68dbc310f4d30b24f7f599ea9dca',1,'RSVScalc']]],
-  ['ndv',['nDv',['../class_r_s_v_scalc.html#a9e34ed5c9fc491d79d047c4b43b14d2e',1,'RSVScalc']]]
+  ['initboundary',['initboundary',['../classparam_1_1snaking.html#a26dfb077ae8c8b1dbccf243bf7498cea',1,'param::snaking']]],
+  ['inputpoints',['inputpoints',['../classparam_1_1voronoi.html#aad718c5b74e989fb7830b27302178e61',1,'param::voronoi']]],
+  ['isconstract',['isConstrAct',['../class_r_s_v_scalc.html#a5af0ff15b0770b6b375098f33c1b42b1',1,'RSVScalc']]],
+  ['isdvact',['isDvAct',['../class_r_s_v_scalc.html#a966daeed8d58c6f62e6c1fd8a80ab832',1,'RSVScalc']]]
 ];

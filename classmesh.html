@@ -9,6 +9,14 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +55,23 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('classmesh.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -61,7 +86,6 @@ $(function() {
 </iframe>
 </div>
 
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -74,6 +98,11 @@ $(function() {
 <div class="title">mesh Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class for mesh handling.  
+ <a href="classmesh.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -264,15 +293,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>GetOffBorderVert2D</b
 <tr class="memdesc:a1753bdcdc2a65d3a71b8debc197b64d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds for each vertex, the volume object containing it.  <a href="#a1753bdcdc2a65d3a71b8debc197b64d8">More...</a><br /></td></tr>
 <tr class="separator:a1753bdcdc2a65d3a71b8debc197b64d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5b4da45e6583c0d3ad29ce1899c8ad3"><td class="memItemLeft" align="right" valign="top"><a id="ab5b4da45e6583c0d3ad29ce1899c8ad3"></a>
-grid::transformation&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b> ()</td></tr>
+<a class="el" href="mesh_8hpp.html#aeafe3f9d24dfe8c1cb04dffe73555be8">grid::transformation</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b> ()</td></tr>
 <tr class="separator:ab5b4da45e6583c0d3ad29ce1899c8ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca1ac934a0fda14f9ae55a2adca9ec2a"><td class="memItemLeft" align="right" valign="top"><a id="aca1ac934a0fda14f9ae55a2adca9ec2a"></a>
-grid::transformation&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b> (const grid::limits &amp;domain)</td></tr>
+<a class="el" href="mesh_8hpp.html#aeafe3f9d24dfe8c1cb04dffe73555be8">grid::transformation</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b> (const grid::limits &amp;domain)</td></tr>
 <tr class="separator:aca1ac934a0fda14f9ae55a2adca9ec2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3943e6f35b07417e8b284bb9679bce9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmesh.html#a3943e6f35b07417e8b284bb9679bce9d">LinearTransform</a> (const grid::transformation &amp;transform)</td></tr>
+<tr class="memitem:a3943e6f35b07417e8b284bb9679bce9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmesh.html#a3943e6f35b07417e8b284bb9679bce9d">LinearTransform</a> (const <a class="el" href="mesh_8hpp.html#aeafe3f9d24dfe8c1cb04dffe73555be8">grid::transformation</a> &amp;transform)</td></tr>
 <tr class="memdesc:a3943e6f35b07417e8b284bb9679bce9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a linear transformation to the points on a grid.  <a href="#a3943e6f35b07417e8b284bb9679bce9d">More...</a><br /></td></tr>
 <tr class="separator:a3943e6f35b07417e8b284bb9679bce9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67a2c27e2f1218f8d4353944c2fa225b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmesh.html#a67a2c27e2f1218f8d4353944c2fa225b">LinearTransformFamily</a> (const grid::transformation &amp;transform)</td></tr>
+<tr class="memitem:a67a2c27e2f1218f8d4353944c2fa225b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmesh.html#a67a2c27e2f1218f8d4353944c2fa225b">LinearTransformFamily</a> (const <a class="el" href="mesh_8hpp.html#aeafe3f9d24dfe8c1cb04dffe73555be8">grid::transformation</a> &amp;transform)</td></tr>
 <tr class="memdesc:a67a2c27e2f1218f8d4353944c2fa225b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies a linear transform to child and parent meshes.  <a href="#a67a2c27e2f1218f8d4353944c2fa225b">More...</a><br /></td></tr>
 <tr class="separator:a67a2c27e2f1218f8d4353944c2fa225b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad528b1e8aa9ee946fa3646db9254351"><td class="memItemLeft" align="right" valign="top"><a id="aad528b1e8aa9ee946fa3646db9254351"></a>
@@ -329,7 +358,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>OrientRelativeSurfaceV
 <tr class="memitem:a05a5ef4a491e3a2657dcd16733fb43fc"><td class="memItemLeft" align="right" valign="top"><a id="a05a5ef4a491e3a2657dcd16733fb43fc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ArraysAreHashed</b> ()</td></tr>
 <tr class="separator:a05a5ef4a491e3a2657dcd16733fb43fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a474ec25c988b06578a450454aaaf5e42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmesh.html#a474ec25c988b06578a450454aaaf5e42">_LinearTransformGeneration</a> (const grid::transformation &amp;transform, vector&lt; <a class="el" href="classmesh.html">mesh</a> * &gt; meshdependence::*mp)</td></tr>
+<tr class="memitem:a474ec25c988b06578a450454aaaf5e42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmesh.html#a474ec25c988b06578a450454aaaf5e42">_LinearTransformGeneration</a> (const <a class="el" href="mesh_8hpp.html#aeafe3f9d24dfe8c1cb04dffe73555be8">grid::transformation</a> &amp;transform, vector&lt; <a class="el" href="classmesh.html">mesh</a> * &gt; meshdependence::*mp)</td></tr>
 <tr class="memdesc:a474ec25c988b06578a450454aaaf5e42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies reccursively linear transforms to a tree of meshes.  <a href="#a474ec25c988b06578a450454aaaf5e42">More...</a><br /></td></tr>
 <tr class="separator:a474ec25c988b06578a450454aaaf5e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -355,8 +384,10 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
 <tr class="separator:af7e9afde3fa3ec7de61d0edeca852d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00445">445</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
+<div class="textblock"><p>Class for mesh handling. </p>
+<p>Class implementing the functionality of this file. The mesh class allow, the robust evolution of a grid. Element connectivity is stored bi-directionnaly. This allows no connectivity to need to be infered and allows very fast and robust traversing of the mesh by using hashed lists of the indices of the mesh components. </p>
+
+<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00477">477</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a474ec25c988b06578a450454aaaf5e42"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a474ec25c988b06578a450454aaaf5e42">&#9670;&nbsp;</a></span>_LinearTransformGeneration()</h2>
@@ -370,7 +401,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
         <tr>
           <td class="memname">void mesh::_LinearTransformGeneration </td>
           <td>(</td>
-          <td class="paramtype">const grid::transformation &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="mesh_8hpp.html#aeafe3f9d24dfe8c1cb04dffe73555be8">grid::transformation</a> &amp;&#160;</td>
           <td class="paramname"><em>transform</em>, </td>
         </tr>
         <tr>
@@ -401,7 +432,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l04003">4003</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l03986">3986</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +479,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
 <p>Process: THis method could be readily refactored to allow treatment of more complex boundaries</p>
 <p>Steps: 1 - Identify vertices lying outside 2 - Indentify connectors lying on boundary a - edges b - surfs c - volus 3 - Introduce boundary vertices (BV) 4 - Connect those BV to form new boundary edges (BE) 5 - Assemble BEs inside a volu into a boundary surf (BS) (This process is similar to the voronoisation) </p>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l04109">4109</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l04092">4092</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
 
 </div>
 </div>
@@ -478,7 +509,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The total number of blocks of vertices identified. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l03431">3431</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l03414">3414</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
 
 </div>
 </div>
@@ -491,7 +522,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
         <tr>
           <td class="memname">void mesh::LinearTransform </td>
           <td>(</td>
-          <td class="paramtype">const grid::transformation &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="mesh_8hpp.html#aeafe3f9d24dfe8c1cb04dffe73555be8">grid::transformation</a> &amp;&#160;</td>
           <td class="paramname"><em>transform</em></td><td>)</td>
           <td></td>
         </tr>
@@ -506,7 +537,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l03973">3973</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l03956">3956</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
 
 </div>
 </div>
@@ -519,7 +550,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
         <tr>
           <td class="memname">void mesh::LinearTransformFamily </td>
           <td>(</td>
-          <td class="paramtype">const grid::transformation &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="mesh_8hpp.html#aeafe3f9d24dfe8c1cb04dffe73555be8">grid::transformation</a> &amp;&#160;</td>
           <td class="paramname"><em>transform</em></td><td>)</td>
           <td></td>
         </tr>
@@ -534,7 +565,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l03989">3989</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l03972">3972</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
 
 </div>
 </div>
@@ -584,11 +615,15 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>snake</b></td></tr>
 <li>src/grid/<a class="el" href="mesh_8cpp_source.html">mesh.cpp</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.15
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classmesh.html">mesh</a></li>
+    <li class="footer">Generated by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
 </body>
 </html>
