@@ -89,9 +89,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa79d4568087796041eead27d13caf68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_r_s_v_scalc.html#aaa79d4568087796041eead27d13caf68">BuildConstrMap</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
 <tr class="memdesc:aaa79d4568087796041eead27d13caf68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the constraint mapping.  <a href="#aaa79d4568087796041eead27d13caf68">More...</a><br /></td></tr>
 <tr class="separator:aaa79d4568087796041eead27d13caf68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15064d1f5797b40d131387ba9d6c8de9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_r_s_v_scalc.html#a15064d1f5797b40d131387ba9d6c8de9">BuildDVMap</a> (const vector&lt; int &gt; &amp;vecin)</td></tr>
-<tr class="memdesc:a15064d1f5797b40d131387ba9d6c8de9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a Design variable map.  <a href="#a15064d1f5797b40d131387ba9d6c8de9">More...</a><br /></td></tr>
-<tr class="separator:a15064d1f5797b40d131387ba9d6c8de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8a0755f17f60a12fa071ccbe862601"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_r_s_v_scalc.html#a3f8a0755f17f60a12fa071ccbe862601">BuildDVMap</a> (const std::vector&lt; int &gt; &amp;vecin)</td></tr>
+<tr class="memdesc:a3f8a0755f17f60a12fa071ccbe862601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a Design variable map.  <a href="#a3f8a0755f17f60a12fa071ccbe862601">More...</a><br /></td></tr>
+<tr class="separator:a3f8a0755f17f60a12fa071ccbe862601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b223daee37c84190aaf3c5d10f10e20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_r_s_v_scalc.html#a9b223daee37c84190aaf3c5d10f10e20">SnakDVcond</a> (const <a class="el" href="classtriangulation.html">triangulation</a> &amp;triRSVS, int ii)</td></tr>
 <tr class="memdesc:a9b223daee37c84190aaf3c5d10f10e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns wether a snaxel is a design variable or not.  <a href="#a9b223daee37c84190aaf3c5d10f10e20">More...</a><br /></td></tr>
 <tr class="separator:a9b223daee37c84190aaf3c5d10f10e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,6 +244,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to handle the RSVS calculation. </p>
 <p>This class calculates volume and area metrics in a triangulated snake to update the velocity and volumes. It uses an SQP algorithm to compute the velocities. </p>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8hpp_source.html#l00033">33</a> of file <a class="el" href="_r_s_v_scalc_8hpp_source.html">RSVScalc.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6124ce157ddce060ded89bbaeace8588"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6124ce157ddce060ded89bbaeace8588">&#9670;&nbsp;</a></span>BuildConstrMap() <span class="overload">[1/2]</span></h2>
@@ -268,6 +270,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00295">295</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
 
 </div>
 </div>
@@ -295,10 +299,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00312">312</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
+
 </div>
 </div>
-<a id="a15064d1f5797b40d131387ba9d6c8de9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15064d1f5797b40d131387ba9d6c8de9">&#9670;&nbsp;</a></span>BuildDVMap()</h2>
+<a id="a3f8a0755f17f60a12fa071ccbe862601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8a0755f17f60a12fa071ccbe862601">&#9670;&nbsp;</a></span>BuildDVMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,7 +312,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
         <tr>
           <td class="memname">int RSVScalc::BuildDVMap </td>
           <td>(</td>
-          <td class="paramtype">const vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>vecin</em></td><td>)</td>
           <td></td>
         </tr>
@@ -321,6 +327,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of design variable. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00328">328</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
 
 </div>
 </div>
@@ -358,6 +366,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00268">268</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
 
 </div>
 </div>
@@ -417,6 +427,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc__core_8cpp_source.html#l00061">61</a> of file <a class="el" href="_r_s_v_scalc__core_8cpp_source.html">RSVScalc_core.cpp</a>.</p>
 
 </div>
 </div>
@@ -479,6 +491,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <p>&lt;--&mdash;Change assignement</p>
 <p>&lt;--&mdash;Change assignement </p>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc__core_8cpp_source.html#l00436">436</a> of file <a class="el" href="_r_s_v_scalc__core_8cpp_source.html">RSVScalc_core.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a25253d96b49a1607544ffb328fd5acea"></a>
@@ -537,6 +551,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc__core_8cpp_source.html#l00705">705</a> of file <a class="el" href="_r_s_v_scalc__core_8cpp_source.html">RSVScalc_core.cpp</a>.</p>
 
 </div>
 </div>
@@ -597,6 +613,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc__core_8cpp_source.html#l00251">251</a> of file <a class="el" href="_r_s_v_scalc__core_8cpp_source.html">RSVScalc_core.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a096ab2fc5d205d934796d1df74ba6669"></a>
@@ -622,6 +640,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00132">132</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
 
 </div>
 </div>
@@ -660,6 +680,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00076">76</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
+
 </div>
 </div>
 <a id="af4589bd9ae66ad4126a82fb7273717f0"></a>
@@ -685,6 +707,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc___s_q_p_8cpp_source.html#l00098">98</a> of file <a class="el" href="_r_s_v_scalc___s_q_p_8cpp_source.html">RSVScalc_SQP.cpp</a>.</p>
 
 </div>
 </div>
@@ -745,6 +769,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc___s_q_p_8cpp_source.html#l00123">123</a> of file <a class="el" href="_r_s_v_scalc___s_q_p_8cpp_source.html">RSVScalc_SQP.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a80df44c6391a2d64dd858bf3fbb165af"></a>
@@ -782,6 +808,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00336">336</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
+
 </div>
 </div>
 <a id="ab0319a6c99c63b599dd3c57077fc0efc"></a>
@@ -809,6 +837,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Getter for the number of constraints. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of constraints. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8hpp_source.html#l00301">301</a> of file <a class="el" href="_r_s_v_scalc_8hpp_source.html">RSVScalc.hpp</a>.</p>
 
 </div>
 </div>
@@ -876,6 +906,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Returns wether the calculation should be performed or not. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc___s_q_p_8cpp_source.html#l00028">28</a> of file <a class="el" href="_r_s_v_scalc___s_q_p_8cpp_source.html">RSVScalc_SQP.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a2e3af9d2262b916e2d48fd55055f51af"></a>
@@ -901,6 +933,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00022">22</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
 
 </div>
 </div>
@@ -928,6 +962,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00171">171</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a40de95f4eb102e1ccbbb0bc45a3646dd"></a>
@@ -953,6 +989,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00231">231</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
 
 </div>
 </div>
@@ -991,6 +1029,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00255">255</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
+
 </div>
 </div>
 <a id="acecbff133c71577b404985fba25f9305"></a>
@@ -1018,6 +1058,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00119">119</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1058,13 +1100,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>wether the snaxel is design variable or not. </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8cpp_source.html#l00053">53</a> of file <a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>incl/<a class="el" href="_r_s_v_scalc_8hpp_source.html">RSVScalc.hpp</a></li>
-<li>src/rsvs/RSVScalc.cpp</li>
-<li>src/rsvs/RSVScalc_core.cpp</li>
-<li>src/rsvs/RSVScalc_SQP.cpp</li>
+<li>src/rsvs/<a class="el" href="_r_s_v_scalc_8cpp_source.html">RSVScalc.cpp</a></li>
+<li>src/rsvs/<a class="el" href="_r_s_v_scalc__core_8cpp_source.html">RSVScalc_core.cpp</a></li>
+<li>src/rsvs/<a class="el" href="_r_s_v_scalc___s_q_p_8cpp_source.html">RSVScalc_SQP.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
