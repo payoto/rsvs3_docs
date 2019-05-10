@@ -12,8 +12,8 @@ var classtrianglesurf =
     [ "SwitchIndex", "classtrianglesurf.html#a3f40ef948b27fc5b99ec39845b58350d", null ],
     [ "TightenConnectivity", "classtrianglesurf.html#ae8b18ce33027fa56ab08e3d3192e0733", null ],
     [ "write", "classtrianglesurf.html#ae471df9766d409dc2014bf533e19d2cb", null ],
-    [ "indvert", "classtrianglesurf.html#a6ce153952e82ae59d779408947fbaa71", null ],
+    [ "indvert", "classtrianglesurf.html#adad2e62ddf2024410e2c9eb305ac0dc2", null ],
     [ "parentsurfmesh", "classtrianglesurf.html#a4ac2a701c9491a98a013286e9e6e06bd", null ],
-    [ "typevert", "classtrianglesurf.html#a2539ed6da0e8370ec4ee9e96e1f8a196", null ],
-    [ "voluind", "classtrianglesurf.html#a636ead3c156983d3ec5eab4dca7ad973", null ]
+    [ "typevert", "classtrianglesurf.html#abaf48327f191c0509e6c834b8ffc37e9", null ],
+    [ "voluind", "classtrianglesurf.html#a30f05e3c8436a2a7b0b3966a15c27f6e", null ]
 ];

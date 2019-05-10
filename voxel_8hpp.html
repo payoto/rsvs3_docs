@@ -117,21 +117,21 @@ Functions</h2></td></tr>
 <tr class="memitem:ae91177abd1bb8c4b78fba0eab9e160b3"><td class="memItemLeft" align="right" valign="top"><a id="ae91177abd1bb8c4b78fba0eab9e160b3"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockGrid</b> (std::array&lt; int, 3 &gt; &amp;dimGrid, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid)</td></tr>
 <tr class="separator:ae91177abd1bb8c4b78fba0eab9e160b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7edb061bdddc1e98880aab0505d346a2"><td class="memItemLeft" align="right" valign="top"><a id="a7edb061bdddc1e98880aab0505d346a2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockGrid</b> (RowVector3i dimGrid, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid)</td></tr>
-<tr class="separator:a7edb061bdddc1e98880aab0505d346a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dd259ca1f283f1cf423cae46882746a"><td class="memItemLeft" align="right" valign="top"><a id="a0dd259ca1f283f1cf423cae46882746a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockVert</b> (RowVector3i dimGrid, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid, int nVert, Matrix3i edgeProp, RowVector3i nEdgeDim)</td></tr>
-<tr class="separator:a0dd259ca1f283f1cf423cae46882746a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66b6b87af18ef0ee11951f69620e8037"><td class="memItemLeft" align="right" valign="top"><a id="a66b6b87af18ef0ee11951f69620e8037"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockEdge</b> (RowVector3i dimGrid, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid, int nEdge, RowVector3i nEdgeDim, RowVector3i nSurfDim, Matrix3i edgeProp, Matrix3i surfProp)</td></tr>
-<tr class="separator:a66b6b87af18ef0ee11951f69620e8037"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ff6fbd646db396175941270ffeed18d"><td class="memItemLeft" align="right" valign="top"><a id="a2ff6fbd646db396175941270ffeed18d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockSurf</b> (RowVector3i dimGrid, int nSurf, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid, Matrix3i surfProp, Matrix3i edgeProp, RowVector3i nSurfDim, RowVector3i nEdgeDim)</td></tr>
-<tr class="separator:a2ff6fbd646db396175941270ffeed18d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bd627f03dae724cfd4afd9c7a598520"><td class="memItemLeft" align="right" valign="top"><a id="a4bd627f03dae724cfd4afd9c7a598520"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockVolu</b> (RowVector3i dimGrid, int nVolu, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid, RowVector3i nSurfDim, Matrix3i surfProp)</td></tr>
-<tr class="separator:a4bd627f03dae724cfd4afd9c7a598520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433d8047a24667e44140b4d101bdbf88"><td class="memItemLeft" align="right" valign="top"><a id="a433d8047a24667e44140b4d101bdbf88"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockGrid</b> (Eigen::RowVector3i dimGrid, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid)</td></tr>
+<tr class="separator:a433d8047a24667e44140b4d101bdbf88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad412274b3dd91aa1196afed458439dae"><td class="memItemLeft" align="right" valign="top"><a id="ad412274b3dd91aa1196afed458439dae"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockVert</b> (Eigen::RowVector3i dimGrid, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid, int nVert, Eigen::Matrix3i edgeProp, Eigen::RowVector3i nEdgeDim)</td></tr>
+<tr class="separator:ad412274b3dd91aa1196afed458439dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cddb0fc065d22edbfe102498b5fd9c4"><td class="memItemLeft" align="right" valign="top"><a id="a4cddb0fc065d22edbfe102498b5fd9c4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockEdge</b> (Eigen::RowVector3i dimGrid, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid, int nEdge, Eigen::RowVector3i nEdgeDim, Eigen::RowVector3i nSurfDim, Eigen::Matrix3i edgeProp, Eigen::Matrix3i surfProp)</td></tr>
+<tr class="separator:a4cddb0fc065d22edbfe102498b5fd9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaec7e489e591a0fe95f71fc84da8131"><td class="memItemLeft" align="right" valign="top"><a id="acaec7e489e591a0fe95f71fc84da8131"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockSurf</b> (Eigen::RowVector3i dimGrid, int nSurf, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid, Eigen::Matrix3i surfProp, Eigen::Matrix3i edgeProp, Eigen::RowVector3i nSurfDim, Eigen::RowVector3i nEdgeDim)</td></tr>
+<tr class="separator:acaec7e489e591a0fe95f71fc84da8131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a51c836ec135e3e2afe8bb0eb42cca"><td class="memItemLeft" align="right" valign="top"><a id="a48a51c836ec135e3e2afe8bb0eb42cca"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>BuildBlockVolu</b> (Eigen::RowVector3i dimGrid, int nVolu, <a class="el" href="classmesh.html">mesh</a> &amp;blockGrid, Eigen::RowVector3i nSurfDim, Eigen::Matrix3i surfProp)</td></tr>
+<tr class="separator:a48a51c836ec135e3e2afe8bb0eb42cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5eef691affa2257f7b65da435c81c27e"><td class="memItemLeft" align="right" valign="top"><a id="a5eef691affa2257f7b65da435c81c27e"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Test_BuildBlockGrid_noout</b> ()</td></tr>
 <tr class="separator:a5eef691affa2257f7b65da435c81c27e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,7 +189,7 @@ template&lt;class T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The cumulative product. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="voxel_8hpp_source.html#l00098">98</a> of file <a class="el" href="voxel_8hpp_source.html">voxel.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voxel_8hpp_source.html#l00096">96</a> of file <a class="el" href="voxel_8hpp_source.html">voxel.hpp</a>.</p>
 
 </div>
 </div>
@@ -238,7 +238,7 @@ template&lt;class T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The cumulative sum. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="voxel_8hpp_source.html#l00067">67</a> of file <a class="el" href="voxel_8hpp_source.html">voxel.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="voxel_8hpp_source.html#l00065">65</a> of file <a class="el" href="voxel_8hpp_source.html">voxel.hpp</a>.</p>
 
 </div>
 </div>

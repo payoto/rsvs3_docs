@@ -109,24 +109,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>assign</b> (int nR, i
 <tr class="memitem:a6f1a5be890001dc6b0a075d01a2a3d76"><td class="memItemLeft" align="right" valign="top"><a id="a6f1a5be890001dc6b0a075d01a2a3d76"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> (int &amp;nR, int &amp;nC) const</td></tr>
 <tr class="separator:a6f1a5be890001dc6b0a075d01a2a3d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d7a9616e9c816803a79bb8d96d52a3e"><td class="memItemLeft" align="right" valign="top"><a id="a5d7a9616e9c816803a79bb8d96d52a3e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
+<tr class="separator:a5d7a9616e9c816803a79bb8d96d52a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadd750102ab28479993aa94c96d4d5d4"><td class="memItemLeft" align="right" valign="top"><a id="aadd750102ab28479993aa94c96d4d5d4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
 <tr class="separator:aadd750102ab28479993aa94c96d4d5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc7eabc2b2bf617472cb70d6b001b2df"><td class="memItemLeft" align="right" valign="top"><a id="abc7eabc2b2bf617472cb70d6b001b2df"></a>
-vector&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const int a)</td></tr>
-<tr class="separator:abc7eabc2b2bf617472cb70d6b001b2df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fd8955eec1d440c87c963a3b3bb33d4"><td class="memItemLeft" align="right" valign="top"><a id="a2fd8955eec1d440c87c963a3b3bb33d4"></a>
-const vector&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const int a) const</td></tr>
-<tr class="separator:a2fd8955eec1d440c87c963a3b3bb33d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0c5dd0369c1936b417bdc3eb335d38"><td class="memItemLeft" align="right" valign="top"><a id="a4e0c5dd0369c1936b417bdc3eb335d38"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (std::ostream &amp;streamout, const char *sep=&quot;, &quot;) const</td></tr>
+<tr class="separator:a4e0c5dd0369c1936b417bdc3eb335d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71f2768076c87ee73671185a896d7d82"><td class="memItemLeft" align="right" valign="top"><a id="a71f2768076c87ee73671185a896d7d82"></a>
+std::vector&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const int a)</td></tr>
+<tr class="separator:a71f2768076c87ee73671185a896d7d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214df23d183fbf5d8897b79195e12a11"><td class="memItemLeft" align="right" valign="top"><a id="a214df23d183fbf5d8897b79195e12a11"></a>
+const std::vector&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const int a) const</td></tr>
+<tr class="separator:a214df23d183fbf5d8897b79195e12a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a41a5b0630db3ea9313c6634461868263"><td class="memItemLeft" align="right" valign="top"><a id="a41a5b0630db3ea9313c6634461868263"></a>
-vector&lt; vector&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>elems</b></td></tr>
-<tr class="separator:a41a5b0630db3ea9313c6634461868263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18bb3c0b106963c2d0b334df2320640a"><td class="memItemLeft" align="right" valign="top"><a id="a18bb3c0b106963c2d0b334df2320640a"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dim</b></td></tr>
-<tr class="separator:a18bb3c0b106963c2d0b334df2320640a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd2aa65d7d5906c3b9a29b8e7feaf37e"><td class="memItemLeft" align="right" valign="top"><a id="abd2aa65d7d5906c3b9a29b8e7feaf37e"></a>
+std::vector&lt; std::vector&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>elems</b></td></tr>
+<tr class="separator:abd2aa65d7d5906c3b9a29b8e7feaf37e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0efaabeb9929b9cc2b20988639d4a0"><td class="memItemLeft" align="right" valign="top"><a id="a3b0efaabeb9929b9cc2b20988639d4a0"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>dim</b></td></tr>
+<tr class="separator:a3b0efaabeb9929b9cc2b20988639d4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class T&gt;<br />

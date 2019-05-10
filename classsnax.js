@@ -2,6 +2,8 @@ var classsnax =
 [
     [ "ChangeIndices", "classsnax.html#a915568029521fb40f85b701fbd1452a1", null ],
     [ "ChangeIndicesSnakeMesh", "classsnax.html#ab73a80ef10cfcf622dcf4d3cb0e731b1", null ],
+    [ "CloseToVertex", "classsnax.html#aa2500d2235764b5f82d4e7fa6aeaa46c", null ],
+    [ "Direction", "classsnax.html#acb26c120f3718130811e09042320d23d", null ],
     [ "disp", "classsnax.html#a759c15b8a982c2fb599720836ec9cb12", null ],
     [ "disptree", "classsnax.html#a84e8f1031b1829c122a63c31f60b3774", null ],
     [ "disptree", "classsnax.html#a096a9e7bd7000cbdcb569092f1e6d1d4", null ],
@@ -12,7 +14,9 @@ var classsnax =
     [ "read", "classsnax.html#a35673de1b2598da6ee5d8d292031e86f", null ],
     [ "set", "classsnax.html#aff41038501d83a80c13b342acda70f09", null ],
     [ "SwitchIndex", "classsnax.html#ab6b3aa54bb8b7c6f031517c39a0b2d6e", null ],
+    [ "TakeSpawnStep", "classsnax.html#a4c10b979888474e5f428a9dccd7f2332", null ],
     [ "TightenConnectivity", "classsnax.html#ac474961643d320378a99f04e349a79cb", null ],
+    [ "ValidateDistance", "classsnax.html#af0e6e63313ba9dc0e983ba0166576e5e", null ],
     [ "write", "classsnax.html#aa03e460627a9e8db40c99661d5216d31", null ],
     [ "d", "classsnax.html#aaf0f639b2f6a4a246653b30bb1f44e6b", null ],
     [ "edgeind", "classsnax.html#a886c8ac92963cbf9f13bb418676f0ec9", null ],

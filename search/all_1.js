@@ -1,7 +1,8 @@
 var searchData=
 [
   ['activegrid',['activegrid',['../classparam_1_1grid.html#a01db53039a41d3fa4c6f4524ae3e962f',1,'param::grid']]],
-  ['addboundary',['AddBoundary',['../classmesh.html#aa28a4f0430c37bac9008022a79c37e4b',1,'mesh']]],
+  ['addboundary',['AddBoundary',['../classmesh.html#a2d1e3f800d3ffa8bc28b43da317e3ce8',1,'mesh']]],
+  ['angle3points',['Angle3Points',['../mesh_8hpp.html#a569f524fe67775fa77049c7da9f0b397',1,'mesh.cpp']]],
   ['apiparam',['apiparam',['../classtetgen_1_1apiparam.html',1,'tetgen::apiparam'],['../classtetgen_1_1apiparam.html#a5a6e5937e656454ee0ded7c9c73704f6',1,'tetgen::apiparam::apiparam()']]],
   ['area',['Area',['../class_area.html',1,'']]],
   ['arraypool',['arraypool',['../classtetgenmesh_1_1arraypool.html',1,'tetgenmesh']]],

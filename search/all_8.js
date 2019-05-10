@@ -5,9 +5,10 @@ var searchData=
   ['hashedvector',['HashedVector',['../class_hashed_vector.html',1,'']]],
   ['hashedvector_3c_20int_2c_20int_20_3e',['HashedVector&lt; int, int &gt;',['../class_hashed_vector.html',1,'']]],
   ['hashedvector_3c_20int_2c_20int_2c_20int_20_3e',['HashedVector&lt; int, int, int &gt;',['../class_hashed_vector.html',1,'']]],
+  ['hashedvectorpair',['HashedVectorPair',['../class_hashed_vector_pair.html',1,'']]],
   ['hashedvectorsafe',['HashedVectorSafe',['../class_hashed_vector_safe.html',1,'']]],
   ['hashedvectorsafe_3c_20int_2c_20int_20_3e',['HashedVectorSafe&lt; int, int &gt;',['../class_hashed_vector_safe.html',1,'']]],
-  ['hconstr',['HConstr',['../class_r_s_v_scalc.html#a265d8b74c9d357e0a1a0a690b3843cf1',1,'RSVScalc']]],
-  ['hlag',['HLag',['../class_r_s_v_scalc.html#a939ed114698eae64bc2628c8d581183f',1,'RSVScalc']]],
-  ['hobj',['HObj',['../class_r_s_v_scalc.html#aa5961656bbf9fc7adfeb4fb515c5ec88',1,'RSVScalc']]]
+  ['hconstr',['HConstr',['../class_r_s_v_scalc.html#a36bd48ed60b25479bbdbadad89a4c6d6',1,'RSVScalc']]],
+  ['hlag',['HLag',['../class_r_s_v_scalc.html#a86a291d326554365c291efc19b3edef3',1,'RSVScalc']]],
+  ['hobj',['HObj',['../class_r_s_v_scalc.html#a63a7a07a4aca03a8e791cb8a24f8a65a',1,'RSVScalc']]]
 ];

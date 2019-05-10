@@ -2,7 +2,7 @@ var searchData=
 [
   ['readme',['README',['../index.html',1,'']]],
   ['realbounds',['realbounds',['../namespaceparam.html#aef1c5e6cfdcc3f955a95493798f914db',1,'param']]],
-  ['resizelagrangianmultiplier',['ResizeLagrangianMultiplier',['../_r_s_v_scalc_8hpp.html#a4fa1f9066d2a564a1f9eb9f6a597f915',1,'RSVScalc_core.cpp']]],
+  ['resizelagrangianmultiplier',['ResizeLagrangianMultiplier',['../_s_q_pstep_8hpp.html#a1d0fa5ec091e9edafdcca7aedde82d5f',1,'SQPstep.hpp']]],
   ['returnconstrtomesh',['ReturnConstrToMesh',['../class_r_s_v_scalc.html#a40de95f4eb102e1ccbbb0bc45a3646dd',1,'RSVScalc::ReturnConstrToMesh(triangulation &amp;triRSVS) const'],['../class_r_s_v_scalc.html#a7a5d5b3ba18bc8d4a25c387ce7bffc5d',1,'RSVScalc::ReturnConstrToMesh(mesh &amp;meshin, double volu::*mp=&amp;volu::volume) const']]],
   ['returnderiv',['returnDeriv',['../class_r_s_v_scalc.html#aae0323875c19a5ada93886b73ee983d6',1,'RSVScalc']]],
   ['returnvelocities',['ReturnVelocities',['../class_r_s_v_scalc.html#acecbff133c71577b404985fba25f9305',1,'RSVScalc']]],
@@ -18,12 +18,15 @@ var searchData=
   ['rsvsalgorithm_2ehpp',['RSVSalgorithm.hpp',['../_r_s_v_salgorithm_8hpp.html',1,'']]],
   ['rsvscalc',['RSVScalc',['../class_r_s_v_scalc.html',1,'']]],
   ['rsvscalc_2ehpp',['RSVScalc.hpp',['../_r_s_v_scalc_8hpp.html',1,'']]],
+  ['rsvscalctools_2ehpp',['RSVScalctools.hpp',['../_r_s_v_scalctools_8hpp.html',1,'']]],
   ['rsvsclass',['RSVSclass',['../classintegrate_1_1_r_s_v_sclass.html',1,'integrate']]],
   ['rsvsclass_2ehpp',['RSVSclass.hpp',['../_r_s_v_sclass_8hpp.html',1,'']]],
+  ['rsvseps',['rsvseps',['../classparam_1_1dev_1_1rsvseps.html',1,'param::dev']]],
   ['rsvsintegration_2ehpp',['RSVSintegration.hpp',['../_r_s_v_sintegration_8hpp.html',1,'']]],
   ['rsvsjson_2ehpp',['rsvsjson.hpp',['../rsvsjson_8hpp.html',1,'']]],
   ['rsvsmath_2ehpp',['RSVSmath.hpp',['../_r_s_v_smath_8hpp.html',1,'']]],
+  ['rsvstecplot',['RSVStecplot',['../classintegrate_1_1_r_s_v_stecplot.html',1,'integrate']]],
   ['rsvstest',['rsvstest',['../namespacersvstest.html',1,'']]],
   ['rsvsvoronoimesh',['RSVSVoronoiMesh',['../tetgenrsvs_8hpp.html#adcc8dcb44216e9a74a00d670ba8ab8f0',1,'tetgen']]],
-  ['runsilent',['RunSilent',['../classrsvstest_1_1customtest.html#ab28b9353a1ce7a7d57ef83909153bb9a',1,'rsvstest::customtest']]]
+  ['runsilent',['RunSilent',['../classrsvstest_1_1customtest.html#adf268a67261fb95f7b870f289b17c099',1,'rsvstest::customtest']]]
 ];

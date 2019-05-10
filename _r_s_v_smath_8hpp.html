@@ -88,7 +88,9 @@ $(document).ready(function(){initNavTree('_r_s_v_smath_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">RSVSmath.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -99,13 +101,14 @@ $(document).ready(function(){initNavTree('_r_s_v_smath_8hpp.html','');});
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
 <code>#include &quot;<a class="el" href="vectorarray_8hpp_source.html">vectorarray.hpp</a>&quot;</code><br />
-<code>#include &quot;RSVSmath_automatic.hpp&quot;</code><br />
+<code>#include &quot;<a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>&quot;</code><br />
 </div>
 <p><a href="_r_s_v_smath_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tri_func.html">TriFunc</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">\TODO refactor <a class="el" href="mesh_8hpp.html" title="Provides all the mesh tools used for the generation of 3D grids and geometries.">mesh.hpp</a> into mesh and coord headers to allow smaller includes  <a href="class_tri_func.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_func.html">CoordFunc</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,6 +122,24 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_surf_centroid.html">SurfCentroid</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceparam"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparam.html">param</a></td></tr>
+<tr class="memdesc:namespaceparam"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace containing the parameter classes used to control execution of the 3D-RSVS program. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceparam_1_1dev"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparam_1_1dev.html">param::dev</a></td></tr>
+<tr class="memdesc:namespaceparam_1_1dev"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace containing parameters used for development only, these are disabled in distributions of the code and can be reenabled by defining the compilation variable: "RSVS_ACCESS_DEVELOPMENT_PARAMETERS". <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a77b48daf88f71a873596ccce3d5cd9a9"><td class="memItemLeft" align="right" valign="top"><a id="a77b48daf88f71a873596ccce3d5cd9a9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetEnvironmentEpsilon</b> (const <a class="el" href="classparam_1_1dev_1_1rsvseps.html">param::dev::rsvseps</a> &amp;rsvsEpsilons)</td></tr>
+<tr class="separator:a77b48daf88f71a873596ccce3d5cd9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2437db0c830d5f5844d10d573c3b370d"><td class="memItemLeft" align="right" valign="top"><a id="a2437db0c830d5f5844d10d573c3b370d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Test_SurfCentreDerivatives</b> ()</td></tr>
+<tr class="separator:a2437db0c830d5f5844d10d573c3b370d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Performs <a class="el" href="class_volume.html">Volume</a> and <a class="el" href="class_area.html">Area</a> calculations for the RSVS process. </p>

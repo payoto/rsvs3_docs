@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('_r_s_v_scalc_8hpp.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">RSVScalc.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -100,215 +100,39 @@ $(document).ready(function(){initNavTree('_r_s_v_scalc_8hpp.html','');});
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="vectorarray_8hpp_source.html">vectorarray.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_r_s_v_smath_8hpp_source.html">RSVSmath.hpp</a>&quot;</code><br />
+<code>#include &lt;Eigen&gt;</code><br />
+<code>#include &quot;<a class="el" href="warning_8hpp_source.html">warning.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="arraystructures_8hpp_source.html">arraystructures.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="snake_8hpp_source.html">snake.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="triangulate_8hpp_source.html">triangulate.hpp</a>&quot;</code><br />
-<code>#include &lt;Eigen&gt;</code><br />
 </div>
 <p><a href="_r_s_v_scalc_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsparsetripletelement.html">sparsetripletelement&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sparse_matrix_triplet.html">SparseMatrixTriplet</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_r_s_v_scalc.html">RSVScalc</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to handle the RSVS calculation.  <a href="class_r_s_v_scalc.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a4fa1f9066d2a564a1f9eb9f6a597f915"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_r_s_v_scalc_8hpp.html#a4fa1f9066d2a564a1f9eb9f6a597f915">ResizeLagrangianMultiplier</a> (const <a class="el" href="class_r_s_v_scalc.html">RSVScalc</a> &amp;calcobj, VectorXd &amp;lagMultAct, bool &amp;isLarge, bool &amp;isNan)</td></tr>
-<tr class="memdesc:a4fa1f9066d2a564a1f9eb9f6a597f915"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the lagrangian multiplier LagMultAct based on whether any of its values are nan or too large.  <a href="#a4fa1f9066d2a564a1f9eb9f6a597f915">More...</a><br /></td></tr>
-<tr class="separator:a4fa1f9066d2a564a1f9eb9f6a597f915"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8b5fb98fcc1f0ac3d01d3ea104e7ca2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ac8b5fb98fcc1f0ac3d01d3ea104e7ca2"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_r_s_v_scalc_8hpp.html#ac8b5fb98fcc1f0ac3d01d3ea104e7ca2">SQPstep</a> (const <a class="el" href="class_r_s_v_scalc.html">RSVScalc</a> &amp;calcobj, const MatrixXd &amp;dConstrAct, const RowVectorXd &amp;dObjAct, const VectorXd &amp;constrAct, VectorXd &amp;lagMultAct, VectorXd &amp;deltaDVAct, bool &amp;isNan, bool &amp;isLarge, bool attemptConstrOnly=true)</td></tr>
-<tr class="memdesc:ac8b5fb98fcc1f0ac3d01d3ea104e7ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template for calculation of an SQP step.  <a href="#ac8b5fb98fcc1f0ac3d01d3ea104e7ca2">More...</a><br /></td></tr>
-<tr class="separator:ac8b5fb98fcc1f0ac3d01d3ea104e7ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2046a409bf26977ce3395b376b6aea92"><td class="memItemLeft" align="right" valign="top"><a id="a2046a409bf26977ce3395b376b6aea92"></a>
+typedef Eigen::SparseMatrix&lt; double, Eigen::ColMajor &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>MatrixXd_sparse</b></td></tr>
+<tr class="separator:a2046a409bf26977ce3395b376b6aea92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae711af1cc5266cdd5095683d4c888ab"><td class="memItemLeft" align="right" valign="top"><a id="aae711af1cc5266cdd5095683d4c888ab"></a>
+typedef <a class="el" href="class_hashed_vector_pair.html">HashedVectorPair</a>&lt; int, int, int, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TripletMap</b></td></tr>
+<tr class="separator:aae711af1cc5266cdd5095683d4c888ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides the infrastructure for calculation of the RSVS equations. </p>
 
 <p class="definition">Definition in file <a class="el" href="_r_s_v_scalc_8hpp_source.html">RSVScalc.hpp</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a4fa1f9066d2a564a1f9eb9f6a597f915"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fa1f9066d2a564a1f9eb9f6a597f915">&#9670;&nbsp;</a></span>ResizeLagrangianMultiplier()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ResizeLagrangianMultiplier </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_r_s_v_scalc.html">RSVScalc</a> &amp;&#160;</td>
-          <td class="paramname"><em>calcobj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>lagMultAct</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname"><em>isLarge</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname"><em>isNan</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Resizes the lagrangian multiplier LagMultAct based on whether any of its values are nan or too large. </p>
-<p>This uses the <a class="el" href="class_r_s_v_scalc.html" title="Class to handle the RSVS calculation.">RSVScalc</a> object to guide the resizing operation if it is needed.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">calcobj</td><td>The calculation object. </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">lagMultAct</td><td>The vector of active lagrangian multipliers. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">isLarge</td><td>Returns if lagMultAct is too large. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">isNan</td><td>Returns if lagMultAct has Nan values. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc__core_8cpp_source.html#l00029">29</a> of file <a class="el" href="_r_s_v_scalc__core_8cpp_source.html">RSVScalc_core.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ac8b5fb98fcc1f0ac3d01d3ea104e7ca2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8b5fb98fcc1f0ac3d01d3ea104e7ca2">&#9670;&nbsp;</a></span>SQPstep()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool SQPstep </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_r_s_v_scalc.html">RSVScalc</a> &amp;&#160;</td>
-          <td class="paramname"><em>calcobj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const MatrixXd &amp;&#160;</td>
-          <td class="paramname"><em>dConstrAct</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const RowVectorXd &amp;&#160;</td>
-          <td class="paramname"><em>dObjAct</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>constrAct</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>lagMultAct</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>deltaDVAct</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname"><em>isNan</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname"><em>isLarge</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>attemptConstrOnly</em> = <code>true</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Template for calculation of an SQP step. </p>
-<p>This template cannot be deduced and needs the developer to pass the required solver class when it is called.</p>
-<p>Instantiation options: Eigen::HouseholderQR Eigen::ColPivHouseholderQR Eigen::LLT&lt;MatrixXd&gt; (*) &lt;- needs a full type to be defined (see below) Eigen::PartialPivLU</p>
-<p>For stability info <a href="https://eigen.tuxfamily.org/dox/group__TutorialLinearAlgebra.html">https://eigen.tuxfamily.org/dox/group__TutorialLinearAlgebra.html</a> <a href="https://eigen.tuxfamily.org/dox/group__DenseDecompositionBenchmark.html">https://eigen.tuxfamily.org/dox/group__DenseDecompositionBenchmark.html</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">calcobj</td><td>The calculation object </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dConstrAct</td><td>Active constraint jacobian dh/dx </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dObjAct</td><td>Active objective jacobian dJ/dx </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">constrAct</td><td>Active constraint vector </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">lagMultAct</td><td>The active lagrangian multipliers </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">deltaDVAct</td><td>The active SQP step to take </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">isNan</td><td>Indicates if lagMult is nan </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">isLarge</td><td>Indicates if lagMult is large </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">attemptConstrOnly</td><td>Should the step algorithm attempt using only the constraint to step.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The Eigen object template type to use. A full type will be defined using T&lt;MatrixXd&gt;.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(isLarge || isNan), if true some form of failure was detected.</dd></dl>
-<p>This template cannot be deduced and needs the developer to pass the required solver class when it is called.</p>
-<p>Instantiation options: Eigen::HouseholderQR&lt;MatrixXd&gt; Eigen::ColPivHouseholderQR&lt;MatrixXd&gt; Eigen::LLT&lt;MatrixXd&gt; Eigen::PartialPivLU&lt;MatrixXd&gt;</p>
-<p>For stability info <a href="https://eigen.tuxfamily.org/dox/group__TutorialLinearAlgebra.html">https://eigen.tuxfamily.org/dox/group__TutorialLinearAlgebra.html</a> <a href="https://eigen.tuxfamily.org/dox/group__DenseDecompositionBenchmark.html">https://eigen.tuxfamily.org/dox/group__DenseDecompositionBenchmark.html</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">calcobj</td><td>The calculation object </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dConstrAct</td><td>Active constraint jacobian dh/dx </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">dObjAct</td><td>Active objective jacobian dJ/dx </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">constrAct</td><td>Active constraint vector </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">lagMultAct</td><td>The active lagrangian multipliers </td></tr>
-    <tr><td class="paramdir"></td><td class="paramname">deltaDVAct</td><td>The active SQP step to take </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">isNan</td><td>Indicates if lagMult is nan </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">isLarge</td><td>Indicates if lagMult is large </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">attemptConstrOnly</td><td>Should the step algorithm attempt using only the constraint to step.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The Eigen object type to use. Should take a <a class="el" href="class_r_s_v_scalc.html#a939ed114698eae64bc2628c8d581183f" title="Lagrangian Hessian, size: [nDv, nDv].">RSVScalc::HLag</a> as a constructor and support a solve method.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(isLarge || isNan), if true some form of failure was detected. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_r_s_v_scalc_8hpp_source.html#l00427">427</a> of file <a class="el" href="_r_s_v_scalc_8hpp_source.html">RSVScalc.hpp</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

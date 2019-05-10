@@ -7,5 +7,6 @@ var classparam_1_1voronoi =
     [ "distancebox", "classparam_1_1voronoi.html#a17e163606d2b04ec2c195eec55f5568f", null ],
     [ "inputpoints", "classparam_1_1voronoi.html#aad718c5b74e989fb7830b27302178e61", null ],
     [ "pointfile", "classparam_1_1voronoi.html#ab4b608a93aaf3df87dc86d762326dcea", null ],
-    [ "snakecoarseness", "classparam_1_1voronoi.html#a51a7ef3ff9394148df832bce55445678", null ]
+    [ "snakecoarseness", "classparam_1_1voronoi.html#a51a7ef3ff9394148df832bce55445678", null ],
+    [ "vorosnakelayers", "classparam_1_1voronoi.html#a8daa437adc90d6fb0c61628cd6046e64", null ]
 ];

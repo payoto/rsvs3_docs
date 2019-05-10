@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('matrixtools_8hpp.html','');});
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;Eigen&gt;</code><br />
 <code>#include &quot;<a class="el" href="vectorarray_8hpp_source.html">vectorarray.hpp</a>&quot;</code><br />
 </div>
 <p><a href="matrixtools_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -128,18 +129,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PrintMatrix</b> (cons
 <tr class="memitem:a61ebfd339454226943785d49d97fe1d9"><td class="memItemLeft" align="right" valign="top"><a id="a61ebfd339454226943785d49d97fe1d9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PrintMatrixFile</b> (const Eigen::MatrixXd &amp;mat, const char *name)</td></tr>
 <tr class="separator:a61ebfd339454226943785d49d97fe1d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4e7abf4343df99ed15ae1d44667873"><td class="memItemLeft" align="right" valign="top"><a id="adc4e7abf4343df99ed15ae1d44667873"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PrintMatrixFile</b> (const Eigen::MatrixXd &amp;mat, std::ostream &amp;myfile)</td></tr>
+<tr class="separator:adc4e7abf4343df99ed15ae1d44667873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16fb476d8671a0b683f0d2bb0688a10"><td class="memItemLeft" align="right" valign="top"><a id="aa16fb476d8671a0b683f0d2bb0688a10"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PrintMatrix</b> (const Eigen::RowVectorXd &amp;mat)</td></tr>
 <tr class="separator:aa16fb476d8671a0b683f0d2bb0688a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a666b532ecbef3f3c7e03b2ca898b9dee"><td class="memItemLeft" align="right" valign="top"><a id="a666b532ecbef3f3c7e03b2ca898b9dee"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PrintMatrix</b> (const Eigen::VectorXd &amp;mat)</td></tr>
 <tr class="separator:a666b532ecbef3f3c7e03b2ca898b9dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4895174d74d8761d8413472709d0dda5"><td class="memItemLeft" align="right" valign="top"><a id="a4895174d74d8761d8413472709d0dda5"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>StreamStatistics</b> (const Eigen::VectorXd &amp;&amp;vec, std::ofstream &amp;out, const std::string &amp;&amp;sep=std::string(&quot;, &quot;))</td></tr>
-<tr class="separator:a4895174d74d8761d8413472709d0dda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad032c2c74a74729569af03242f8ff3c1"><td class="memItemLeft" align="right" valign="top"><a id="ad032c2c74a74729569af03242f8ff3c1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>StreamOutVector</b> (const Eigen::VectorXd &amp;&amp;vec, std::ofstream &amp;out, const std::string &amp;&amp;sep=std::string(&quot;, &quot;))</td></tr>
-<tr class="separator:ad032c2c74a74729569af03242f8ff3c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a976026be792d7b6f78f9165baa4aad75"><td class="memItemLeft" align="right" valign="top"><a id="a976026be792d7b6f78f9165baa4aad75"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>StreamStatistics</b> (const Eigen::VectorXd &amp;&amp;vec, std::ostream &amp;out, const std::string &amp;&amp;sep=std::string(&quot;, &quot;))</td></tr>
+<tr class="separator:a976026be792d7b6f78f9165baa4aad75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9684f9aa33b6bd527f451632f55c9fa6"><td class="memItemLeft" align="right" valign="top"><a id="a9684f9aa33b6bd527f451632f55c9fa6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>StreamOutVector</b> (const Eigen::VectorXd &amp;&amp;vec, std::ostream &amp;out, const std::string &amp;&amp;sep=std::string(&quot;, &quot;))</td></tr>
+<tr class="separator:a9684f9aa33b6bd527f451632f55c9fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa670e9b1ddc3455fa4589afae6aca2a2"><td class="memItemLeft" align="right" valign="top"><a id="aa670e9b1ddc3455fa4589afae6aca2a2"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Test_Matrix3D</b> ()</td></tr>
+<tr class="separator:aa670e9b1ddc3455fa4589afae6aca2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tools to support conversion, display and derivatives of Eigen matrices. </p>

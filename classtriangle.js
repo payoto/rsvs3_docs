@@ -17,6 +17,6 @@ var classtriangle =
     [ "isTriangleReady", "classtriangle.html#a5128ac5c4d61f0d1f8d3bbe0df7cadde", null ],
     [ "parentsurf", "classtriangle.html#a89c1e40fe38c7f9d2322fea24865fa82", null ],
     [ "parenttype", "classtriangle.html#ab005ceaa74bc802e3c536e1143c4601b", null ],
-    [ "pointind", "classtriangle.html#a70be3084ec98bd297274cf38b8133103", null ],
-    [ "pointtype", "classtriangle.html#a6b99dd4064299af8467895738be4c7b1", null ]
+    [ "pointind", "classtriangle.html#a80f9edd7b74059c4d7fb1a08716d7a33", null ],
+    [ "pointtype", "classtriangle.html#adfcb77d18419ae6ba033071c94a62fd7", null ]
 ];

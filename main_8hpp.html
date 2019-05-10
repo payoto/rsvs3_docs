@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('main_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -98,9 +99,15 @@ $(document).ready(function(){initNavTree('main_8hpp.html','');});
 <p>file containing the main functions and the command line parser.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="main_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparse_1_1_parser_output.html">parse::ParserOutput</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceparam"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparam.html">param</a></td></tr>
@@ -112,12 +119,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aeb1b0d8174ed691b37985739ac5bc8e0"><td class="memItemLeft" align="right" valign="top"><a id="aeb1b0d8174ed691b37985739ac5bc8e0"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>RSVSExecution</b> (int argc, char *argv[])</td></tr>
 <tr class="separator:aeb1b0d8174ed691b37985739ac5bc8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50316a974f8af3aed21c8a42e3dab274"><td class="memItemLeft" align="right" valign="top"><a id="a50316a974f8af3aed21c8a42e3dab274"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>NoExecution</b> (int execFlow, <a class="el" href="classparam_1_1parameters.html">param::parameters</a> &amp;paramconf)</td></tr>
-<tr class="separator:a50316a974f8af3aed21c8a42e3dab274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3234df5ce6f29b011411e5d096cb78a7"><td class="memItemLeft" align="right" valign="top"><a id="a3234df5ce6f29b011411e5d096cb78a7"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>parse::CommandLineParser</b> (int argc, char *argv[], <a class="el" href="classparam_1_1parameters.html">param::parameters</a> &amp;paramconf)</td></tr>
-<tr class="separator:a3234df5ce6f29b011411e5d096cb78a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdf15fea9293570c00368e824d3f2f0"><td class="memItemLeft" align="right" valign="top"><a id="acfdf15fea9293570c00368e824d3f2f0"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>NoExecution</b> (<a class="el" href="classparse_1_1_parser_output.html">parse::ParserOutput</a> execFlow, <a class="el" href="classparam_1_1parameters.html">param::parameters</a> &amp;paramconf)</td></tr>
+<tr class="separator:acfdf15fea9293570c00368e824d3f2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4669b38f12fc7b4718913005be29e00"><td class="memItemLeft" align="right" valign="top">ParserOutput&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8hpp.html#af4669b38f12fc7b4718913005be29e00">parse::CommandLineParser</a> (int argc, char *argv[], <a class="el" href="classparam_1_1parameters.html">param::parameters</a> &amp;paramconf)</td></tr>
+<tr class="memdesc:af4669b38f12fc7b4718913005be29e00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes in the command line arguments and returns an integer specifying the execution flow of the rest of the program.  <a href="main_8hpp.html#af4669b38f12fc7b4718913005be29e00">More...</a><br /></td></tr>
+<tr class="separator:af4669b38f12fc7b4718913005be29e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9973c8bc58e568e12b395ee8dcd33a"><td class="memItemLeft" align="right" valign="top"><a id="a8d9973c8bc58e568e12b395ee8dcd33a"></a>
+ParserOutput&#160;</td><td class="memItemRight" valign="bottom"><b>parse::StringParser</b> (std::vector&lt; std::string &gt; &amp;commands, <a class="el" href="classparam_1_1parameters.html">param::parameters</a> &amp;paramconf)</td></tr>
+<tr class="separator:a8d9973c8bc58e568e12b395ee8dcd33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0dc3b38faf693cefa376f218321cdc7"><td class="memItemLeft" align="right" valign="top"><a id="ac0dc3b38faf693cefa376f218321cdc7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>parse::config::useconfig</b> (const std::string &amp;confCase, <a class="el" href="classparam_1_1parameters.html">param::parameters</a> &amp;paramconf)</td></tr>
 <tr class="separator:ac0dc3b38faf693cefa376f218321cdc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,7 +139,55 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>parse::config::loadco
 <div class="textblock"><p>file containing the main functions and the command line parser. </p>
 
 <p class="definition">Definition in file <a class="el" href="main_8hpp_source.html">main.hpp</a>.</p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="file_af4669b38f12fc7b4718913005be29e00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#file_af4669b38f12fc7b4718913005be29e00">&#9670;&nbsp;</a></span>CommandLineParser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classparse_1_1_parser_output.html">parse::ParserOutput</a> parse::CommandLineParser </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classparam_1_1parameters.html">param::parameters</a> &amp;&#160;</td>
+          <td class="paramname"><em>paramconf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes in the command line arguments and returns an integer specifying the execution flow of the rest of the program. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">argc</td><td>The number of arguments </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">argv</td><td>the arguments </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">paramconf</td><td>The parameter struncture</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number indicating the state of the program after parsing: 0 does nothing; 1 Run RSVS; -1 No exec stops it; -2 Error parsing inputs. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00083">83</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

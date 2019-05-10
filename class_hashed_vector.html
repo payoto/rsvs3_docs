@@ -101,8 +101,10 @@ Inheritance diagram for HashedVector&lt; T, Q, R &gt;:</div>
  <div class="center">
   <img src="class_hashed_vector.png" usemap="#HashedVector_3C_20T_2C_20Q_2C_20R_20_3E_map" alt=""/>
   <map id="HashedVector_3C_20T_2C_20Q_2C_20R_20_3E_map" name="HashedVector_3C_20T_2C_20Q_2C_20R_20_3E_map">
-<area href="class_hashed_map.html" alt="HashedMap&lt; T, Q, R &gt;" shape="rect" coords="0,56,186,80"/>
-<area href="class_hashed_vector_safe.html" alt="HashedVectorSafe&lt; T, Q, R &gt;" shape="rect" coords="196,56,382,80"/>
+<area href="class_hashed_map.html" alt="HashedMap&lt; T, Q, R &gt;" shape="rect" coords="0,56,200,80"/>
+<area href="class_hashed_vector_pair.html" alt="HashedVectorPair&lt; T, Q, R, S &gt;" shape="rect" coords="210,56,410,80"/>
+<area href="class_hashed_vector_safe.html" alt="HashedVectorSafe&lt; T, Q, R &gt;" shape="rect" coords="420,56,620,80"/>
+<area href="class_sparse_matrix_triplet.html" alt="SparseMatrixTriplet" shape="rect" coords="210,112,410,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -114,35 +116,56 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>GenerateHash</b> ()</
 <tr class="memitem:a5079a8bfb98fb2a084e186eee137d63c"><td class="memItemLeft" align="right" valign="top"><a id="a5079a8bfb98fb2a084e186eee137d63c"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>find</b> (const T key) const</td></tr>
 <tr class="separator:a5079a8bfb98fb2a084e186eee137d63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7626ca307502e055c132673b9e6e134c"><td class="memItemLeft" align="right" valign="top"><a id="a7626ca307502e055c132673b9e6e134c"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findall</b> (const T key) const</td></tr>
-<tr class="separator:a7626ca307502e055c132673b9e6e134c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587be4560d0d9310cebb7fca81f31a54"><td class="memItemLeft" align="right" valign="top"><a id="a587be4560d0d9310cebb7fca81f31a54"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>findall</b> (const T key) const</td></tr>
+<tr class="separator:a587be4560d0d9310cebb7fca81f31a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf04ab70585e49ca5c3b891364ca6881"><td class="memItemLeft" align="right" valign="top"><a id="aaf04ab70585e49ca5c3b891364ca6881"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> (const T key) const</td></tr>
 <tr class="separator:aaf04ab70585e49ca5c3b891364ca6881"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab706745288e81083c1e9d4d6b1a9f0c1"><td class="memItemLeft" align="right" valign="top"><a id="ab706745288e81083c1e9d4d6b1a9f0c1"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> (const vector&lt; T &gt; &amp;key) const</td></tr>
-<tr class="separator:ab706745288e81083c1e9d4d6b1a9f0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8520c9222bb32119fd327d9cf7f97392"><td class="memItemLeft" align="right" valign="top"><a id="a8520c9222bb32119fd327d9cf7f97392"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>find_list</b> (const vector&lt; T &gt; &amp;key) const</td></tr>
-<tr class="separator:a8520c9222bb32119fd327d9cf7f97392"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55161bbc49e34dea0ea1dc3d82b9f2d6"><td class="memItemLeft" align="right" valign="top"><a id="a55161bbc49e34dea0ea1dc3d82b9f2d6"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> (const std::vector&lt; T &gt; &amp;key) const</td></tr>
+<tr class="separator:a55161bbc49e34dea0ea1dc3d82b9f2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89606821e11211565ba0e88c938a1e4c"><td class="memItemLeft" align="right" valign="top"><a id="a89606821e11211565ba0e88c938a1e4c"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>find_list</b> (const std::vector&lt; T &gt; &amp;key) const</td></tr>
+<tr class="separator:a89606821e11211565ba0e88c938a1e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63ea3411296cce5f41260268f329a313"><td class="memItemLeft" align="right" valign="top"><a id="a63ea3411296cce5f41260268f329a313"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> (const Q &amp;key) const</td></tr>
 <tr class="separator:a63ea3411296cce5f41260268f329a313"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe101741d2aa428869c933a9b6699c72"><td class="memItemLeft" align="right" valign="top"><a id="afe101741d2aa428869c933a9b6699c72"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsInVec</b> (const Q &amp;key) const</td></tr>
 <tr class="separator:afe101741d2aa428869c933a9b6699c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988cbcf7beee934492baf93bd9394105"><td class="memItemLeft" align="right" valign="top"><a id="a988cbcf7beee934492baf93bd9394105"></a>
+T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const int a)</td></tr>
+<tr class="separator:a988cbcf7beee934492baf93bd9394105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb702fd0e619912003ce83b9cd974c7"><td class="memItemLeft" align="right" valign="top"><a id="abcb702fd0e619912003ce83b9cd974c7"></a>
+const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (const int a) const</td></tr>
+<tr class="separator:abcb702fd0e619912003ce83b9cd974c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b89c62ba4d4956be2b05485379f3fa1"><td class="memItemLeft" align="right" valign="top"><a id="a7b89c62ba4d4956be2b05485379f3fa1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>reserve</b> (const size_t a)</td></tr>
+<tr class="separator:a7b89c62ba4d4956be2b05485379f3fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aff033affe8774f95a882466597a70e"><td class="memItemLeft" align="right" valign="top"><a id="a8aff033affe8774f95a882466597a70e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>assign</b> (const size_t a, const T &amp;elm)</td></tr>
+<tr class="separator:a8aff033affe8774f95a882466597a70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccb66dceb208b8d56ed5c8f045a2796"><td class="memItemLeft" align="right" valign="top"><a id="a8ccb66dceb208b8d56ed5c8f045a2796"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>push_back</b> (const T &amp;elm)</td></tr>
+<tr class="separator:a8ccb66dceb208b8d56ed5c8f045a2796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83df2db17649e04bfa33a45bcb8146d5"><td class="memItemLeft" align="right" valign="top"><a id="a83df2db17649e04bfa33a45bcb8146d5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="separator:a83df2db17649e04bfa33a45bcb8146d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84cacc815ea083e4c55f87c70b5451db"><td class="memItemLeft" align="right" valign="top"><a id="a84cacc815ea083e4c55f87c70b5451db"></a>
+size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
+<tr class="separator:a84cacc815ea083e4c55f87c70b5451db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a767201a0cbf1bd7983e9a8c9c33080fe"><td class="memItemLeft" align="right" valign="top"><a id="a767201a0cbf1bd7983e9a8c9c33080fe"></a>
-vector&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vec</b></td></tr>
-<tr class="separator:a767201a0cbf1bd7983e9a8c9c33080fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2a1340a7a5f2f803bb0e7dc19c86f60"><td class="memItemLeft" align="right" valign="top"><a id="af2a1340a7a5f2f803bb0e7dc19c86f60"></a>
-unordered_multimap&lt; T, R &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>hashTable</b></td></tr>
-<tr class="separator:af2a1340a7a5f2f803bb0e7dc19c86f60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac19981d01bd2ed55a4844fd3ab3f06a7"><td class="memItemLeft" align="right" valign="top"><a id="ac19981d01bd2ed55a4844fd3ab3f06a7"></a>
+std::vector&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vec</b></td></tr>
+<tr class="separator:ac19981d01bd2ed55a4844fd3ab3f06a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac384a2e7df8986340dad47d0b9e3532f"><td class="memItemLeft" align="right" valign="top"><a id="ac384a2e7df8986340dad47d0b9e3532f"></a>
+std::unordered_multimap&lt; T, R &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>hashTable</b></td></tr>
+<tr class="separator:ac384a2e7df8986340dad47d0b9e3532f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac53daf39fe82236db10883427d8f655d"><td class="memItemLeft" align="right" valign="top"><a id="ac53daf39fe82236db10883427d8f655d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isHash</b> =false</td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isHash</b> =true</td></tr>
 <tr class="separator:ac53daf39fe82236db10883427d8f655d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -150,7 +173,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isHash</b> =false</td
 class HashedVector&lt; T, Q, R &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="arraystructures_8hpp_source.html#l00070">70</a> of file <a class="el" href="arraystructures_8hpp_source.html">arraystructures.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="arraystructures_8hpp_source.html#l00078">78</a> of file <a class="el" href="arraystructures_8hpp_source.html">arraystructures.hpp</a>.</p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>incl/<a class="el" href="arraystructures_8hpp_source.html">arraystructures.hpp</a></li>
 <li>incl/<a class="el" href="arraystructures__incl_8cpp_source.html">arraystructures_incl.cpp</a></li>

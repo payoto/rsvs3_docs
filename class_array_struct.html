@@ -114,18 +114,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aef3e3f6e4934127aba720ab916d8dc77"><td class="memItemLeft" align="right" valign="top"><a id="aef3e3f6e4934127aba720ab916d8dc77"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>disp</b> () const</td></tr>
 <tr class="separator:aef3e3f6e4934127aba720ab916d8dc77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7dea8dac8d4a7209d34320509345d2a"><td class="memItemLeft" align="right" valign="top"><a id="ac7dea8dac8d4a7209d34320509345d2a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>disp</b> (const vector&lt; int &gt; &amp;subs) const</td></tr>
-<tr class="separator:ac7dea8dac8d4a7209d34320509345d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd04806d77f3b457a790495def8e793"><td class="memItemLeft" align="right" valign="top"><a id="a5dd04806d77f3b457a790495def8e793"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>disp</b> (const std::vector&lt; int &gt; &amp;subs) const</td></tr>
+<tr class="separator:a5dd04806d77f3b457a790495def8e793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab674577f5dde9be20b11d3150b68b164"><td class="memItemLeft" align="right" valign="top"><a id="ab674577f5dde9be20b11d3150b68b164"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>disp</b> (int iStart, int iEnd) const</td></tr>
 <tr class="separator:ab674577f5dde9be20b11d3150b68b164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6864472b12634afae6b0faf85934957"><td class="memItemLeft" align="right" valign="top"><a id="ad6864472b12634afae6b0faf85934957"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>find</b> (int key, bool noWarn=false) const</td></tr>
 <tr class="separator:ad6864472b12634afae6b0faf85934957"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332c16dc1f4914e524853ad9fba534d2"><td class="memItemLeft" align="right" valign="top"><a id="a332c16dc1f4914e524853ad9fba534d2"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>find_list</b> (const vector&lt; int &gt; &amp;key, bool noWarn=false) const</td></tr>
-<tr class="separator:a332c16dc1f4914e524853ad9fba534d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba631bdc7a630fa699e246e8b0f8799"><td class="memItemLeft" align="right" valign="top"><a id="a6ba631bdc7a630fa699e246e8b0f8799"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>find_list</b> (const std::vector&lt; int &gt; &amp;key, bool noWarn=false) const</td></tr>
+<tr class="separator:a6ba631bdc7a630fa699e246e8b0f8799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af65169f4656bc8401040822b3608693d"><td class="memItemLeft" align="right" valign="top"><a id="af65169f4656bc8401040822b3608693d"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>GetMaxIndex</b> () const</td></tr>
 <tr class="separator:af65169f4656bc8401040822b3608693d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,9 +162,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (FILE *fid)
 <tr class="memitem:ade58ea096970ae5a82930b85056a5533"><td class="memItemLeft" align="right" valign="top"><a id="ade58ea096970ae5a82930b85056a5533"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (FILE *fid)</td></tr>
 <tr class="separator:ade58ea096970ae5a82930b85056a5533"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1bf414cbdf8e24be60fca4fce38c6b"><td class="memItemLeft" align="right" valign="top"><a id="a3e1bf414cbdf8e24be60fca4fce38c6b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (vector&lt; int &gt; delInd)</td></tr>
-<tr class="separator:a3e1bf414cbdf8e24be60fca4fce38c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6a785faf16aace3526428d96b427e7"><td class="memItemLeft" align="right" valign="top"><a id="a5b6a785faf16aace3526428d96b427e7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>remove</b> (std::vector&lt; int &gt; delInd)</td></tr>
+<tr class="separator:a5b6a785faf16aace3526428d96b427e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27a8620a8ceb1b466b8221812b3b5a61"><td class="memItemLeft" align="right" valign="top"><a id="a27a8620a8ceb1b466b8221812b3b5a61"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TightenConnectivity</b> ()</td></tr>
 <tr class="separator:a27a8620a8ceb1b466b8221812b3b5a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,12 +225,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>readyforuse</b> =fals
 <tr class="memitem:ab332a53da0d10e3df4e1bc547c29cc45"><td class="memItemLeft" align="right" valign="top"><a id="ab332a53da0d10e3df4e1bc547c29cc45"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isInMesh</b> =false</td></tr>
 <tr class="separator:ab332a53da0d10e3df4e1bc547c29cc45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec0a0c3002f1ff3f7d5047fd8d398d6b"><td class="memItemLeft" align="right" valign="top"><a id="aec0a0c3002f1ff3f7d5047fd8d398d6b"></a>
-vector&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>elems</b></td></tr>
-<tr class="separator:aec0a0c3002f1ff3f7d5047fd8d398d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3fedd414ff4ecab5c76d017b7d0bbf0"><td class="memItemLeft" align="right" valign="top"><a id="af3fedd414ff4ecab5c76d017b7d0bbf0"></a>
-unordered_multimap&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>hashTable</b></td></tr>
-<tr class="separator:af3fedd414ff4ecab5c76d017b7d0bbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef428fcc7f10cf8fda085dc35dcb2d4f"><td class="memItemLeft" align="right" valign="top"><a id="aef428fcc7f10cf8fda085dc35dcb2d4f"></a>
+std::vector&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>elems</b></td></tr>
+<tr class="separator:aef428fcc7f10cf8fda085dc35dcb2d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc3852e0c8a9b4a97360af2f42c088e"><td class="memItemLeft" align="right" valign="top"><a id="a9bc3852e0c8a9b4a97360af2f42c088e"></a>
+std::unordered_multimap&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>hashTable</b></td></tr>
+<tr class="separator:a9bc3852e0c8a9b4a97360af2f42c088e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -252,7 +252,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>TestTemplate_ArrayStru
 class ArrayStruct&lt; T &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="arraystructures_8hpp_source.html#l00069">69</a> of file <a class="el" href="arraystructures_8hpp_source.html">arraystructures.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="arraystructures_8hpp_source.html#l00077">77</a> of file <a class="el" href="arraystructures_8hpp_source.html">arraystructures.hpp</a>.</p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>incl/<a class="el" href="arraystructures_8hpp_source.html">arraystructures.hpp</a></li>
 <li>incl/<a class="el" href="arraystructures__incl_8cpp_source.html">arraystructures_incl.cpp</a></li>

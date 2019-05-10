@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['geometricproperties',['GeometricProperties',['../classedge.html#aaad4982bf02d1ffb4bf391d6b28e823f',1,'edge']]]
+  ['error',['error',['../namespacersvs3d.html#afcf63d853114233f5eb705abc03ed337',1,'rsvs3d']]]
 ];

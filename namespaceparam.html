@@ -102,6 +102,9 @@ $(document).ready(function(){initNavTree('namespaceparam.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespaceparam_1_1dev"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparam_1_1dev.html">dev</a></td></tr>
+<tr class="memdesc:namespaceparam_1_1dev"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace containing parameters used for development only, these are disabled in distributions of the code and can be reenabled by defining the compilation variable: "RSVS_ACCESS_DEVELOPMENT_PARAMETERS". <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceparam_1_1io"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparam_1_1io.html">io</a></td></tr>
 <tr class="memdesc:namespaceparam_1_1io"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide functions for reading and writing of the parameter structure. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,6 +129,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparam_1_1ioout.html">ioout</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class containing the output configuration these are files to store and where to store them.  <a href="classparam_1_1ioout.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparam_1_1outputtemplate.html">outputtemplate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Template for generating the correct processing file for the outputs.  <a href="classparam_1_1outputtemplate.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparam_1_1parameters.html">parameters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root class for all the parameters.  <a href="classparam_1_1parameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,6 +140,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparam_1_1snaking.html">snaking</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters controlling tuning parameters for the stepping of the restricted surface.  <a href="classparam_1_1snaking.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparam_1_1tecplottemplate.html">tecplottemplate</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparam_1_1voronoi.html">voronoi</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for handling of voronoi VOS meshing parameters.  <a href="classparam_1_1voronoi.html#details">More...</a><br /></td></tr>
@@ -151,6 +159,9 @@ typedef std::array&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign=
 <tr class="memitem:a5e4ebe00dd4c0ee51f399bb54e9b71ce"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceparam.html#a5e4ebe00dd4c0ee51f399bb54e9b71ce">exports</a></td></tr>
 <tr class="memdesc:a5e4ebe00dd4c0ee51f399bb54e9b71ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collects the export settings which is a vector of pairs of strings.  <a href="#a5e4ebe00dd4c0ee51f399bb54e9b71ce">More...</a><br /></td></tr>
 <tr class="separator:a5e4ebe00dd4c0ee51f399bb54e9b71ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae96c8d60ccc8b332158c17bfa5a5ac83"><td class="memItemLeft" align="right" valign="top"><a id="ae96c8d60ccc8b332158c17bfa5a5ac83"></a>
+typedef std::vector&lt; std::pair&lt; int, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>varconfig</b></td></tr>
+<tr class="separator:ae96c8d60ccc8b332158c17bfa5a5ac83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -162,6 +173,12 @@ template&lt;class T &gt; </td></tr>
 template&lt;class T &gt; </td></tr>
 <tr class="memitem:abb44c5600ccfef9cbc5151777315d026"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_json</b> (const rsvsjson::json &amp;j, <a class="el" href="structparam_1_1filltype.html">filltype</a>&lt; T &gt; &amp;p)</td></tr>
 <tr class="separator:abb44c5600ccfef9cbc5151777315d026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a868d0a75630c690f5d5d2fba3ab410cc"><td class="memItemLeft" align="right" valign="top"><a id="a868d0a75630c690f5d5d2fba3ab410cc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>to_json</b> (rsvsjson::json &amp;j, const <a class="el" href="classparam_1_1outputtemplate.html">outputtemplate</a> &amp;p)</td></tr>
+<tr class="separator:a868d0a75630c690f5d5d2fba3ab410cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59310c5de86cc3fc8b4d8e74275eadd8"><td class="memItemLeft" align="right" valign="top"><a id="a59310c5de86cc3fc8b4d8e74275eadd8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>from_json</b> (const rsvsjson::json &amp;j, <a class="el" href="classparam_1_1outputtemplate.html">outputtemplate</a> &amp;p)</td></tr>
+<tr class="separator:a59310c5de86cc3fc8b4d8e74275eadd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab08be41e946da53cc1cb383bb3365aa0"><td class="memItemLeft" align="right" valign="top"><a id="ab08be41e946da53cc1cb383bb3365aa0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>to_json</b> (rsvsjson::json &amp;j, const <a class="el" href="classparam_1_1rsvs.html">rsvs</a> &amp;p)</td></tr>
 <tr class="separator:ab08be41e946da53cc1cb383bb3365aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>

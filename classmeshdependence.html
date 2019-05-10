@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('classmeshdependence.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -102,6 +103,18 @@ $(document).ready(function(){initNavTree('classmeshdependence.html','');});
 
 <p><code>#include &lt;<a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:afccf740022801142c605fcd98bcf1d59"><td class="memItemLeft" align="right" valign="top"><a id="afccf740022801142c605fcd98bcf1d59"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NumberOfParents</b> () const</td></tr>
+<tr class="separator:afccf740022801142c605fcd98bcf1d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c3b0a5d8ae4712d189fe42ae00bef5"><td class="memItemLeft" align="right" valign="top"><a id="a69c3b0a5d8ae4712d189fe42ae00bef5"></a>
+const <a class="el" href="classmesh.html">mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>ParentPointer</b> (int a) const</td></tr>
+<tr class="separator:a69c3b0a5d8ae4712d189fe42ae00bef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5d994547cc338930b0f86ed655900b"><td class="memItemLeft" align="right" valign="top"><a id="aaa5d994547cc338930b0f86ed655900b"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ChildIndices</b> (int parent, int parentVoluIndex) const</td></tr>
+<tr class="separator:aaa5d994547cc338930b0f86ed655900b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a923211ffaa02551d80d8e94d35ce5d4e"><td class="memItemLeft" align="right" valign="top"><a id="a923211ffaa02551d80d8e94d35ce5d4e"></a>
@@ -110,9 +123,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>AddParent</b> (<a clas
 <tr class="memitem:a71d47375a7b3470a312302f25cc64f6b"><td class="memItemLeft" align="right" valign="top"><a id="a71d47375a7b3470a312302f25cc64f6b"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>AddChild</b> (<a class="el" href="classmesh.html">mesh</a> *meshin)</td></tr>
 <tr class="separator:a71d47375a7b3470a312302f25cc64f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a690f9f5ce1d1071190527e90c05028a5"><td class="memItemLeft" align="right" valign="top"><a id="a690f9f5ce1d1071190527e90c05028a5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddParent</b> (<a class="el" href="classmesh.html">mesh</a> *meshin, vector&lt; int &gt; &amp;parentind)</td></tr>
-<tr class="separator:a690f9f5ce1d1071190527e90c05028a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f96cb74b2edcadf074b1963bf0ee4f"><td class="memItemLeft" align="right" valign="top"><a id="a21f96cb74b2edcadf074b1963bf0ee4f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddParent</b> (<a class="el" href="classmesh.html">mesh</a> *meshin, std::vector&lt; int &gt; &amp;parentind)</td></tr>
+<tr class="separator:a21f96cb74b2edcadf074b1963bf0ee4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ffdc254c3e204b1ce8ad57cda240867"><td class="memItemLeft" align="right" valign="top"><a id="a4ffdc254c3e204b1ce8ad57cda240867"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveChild</b> (<a class="el" href="classmesh.html">mesh</a> *meshin)</td></tr>
 <tr class="separator:a4ffdc254c3e204b1ce8ad57cda240867"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,21 +139,21 @@ Protected Attributes</h2></td></tr>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#adf0757d61e883162d755da6813eca643">nParents</a> = 0</td></tr>
 <tr class="memdesc:adf0757d61e883162d755da6813eca643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of parent meshes. <br /></td></tr>
 <tr class="separator:adf0757d61e883162d755da6813eca643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab37234223211a5d39a86d2b972e30309"><td class="memItemLeft" align="right" valign="top"><a id="ab37234223211a5d39a86d2b972e30309"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#ab37234223211a5d39a86d2b972e30309">elemind</a></td></tr>
-<tr class="memdesc:ab37234223211a5d39a86d2b972e30309"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices of the active elements of the owning mesh. <br /></td></tr>
-<tr class="separator:ab37234223211a5d39a86d2b972e30309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1d944fc923b5d32bf45f1dd9bd039fe"><td class="memItemLeft" align="right" valign="top"><a id="ab1d944fc923b5d32bf45f1dd9bd039fe"></a>
-vector&lt; <a class="el" href="classmesh.html">mesh</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#ab1d944fc923b5d32bf45f1dd9bd039fe">parentmesh</a></td></tr>
-<tr class="memdesc:ab1d944fc923b5d32bf45f1dd9bd039fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of pointers to the mesh which are coarser (parents). <br /></td></tr>
-<tr class="separator:ab1d944fc923b5d32bf45f1dd9bd039fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7013a7ec0eca97772e3c9cbb99e11359"><td class="memItemLeft" align="right" valign="top"><a id="a7013a7ec0eca97772e3c9cbb99e11359"></a>
-vector&lt; <a class="el" href="classmesh.html">mesh</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#a7013a7ec0eca97772e3c9cbb99e11359">childmesh</a></td></tr>
-<tr class="memdesc:a7013a7ec0eca97772e3c9cbb99e11359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of pointers to the mesh which are finer (children). <br /></td></tr>
-<tr class="separator:a7013a7ec0eca97772e3c9cbb99e11359"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb8d9f5a7c5d3814ba79ce42a81f65ac"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="class_hashed_vector_safe.html">HashedVectorSafe</a>&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#afb8d9f5a7c5d3814ba79ce42a81f65ac">parentconn</a></td></tr>
-<tr class="memdesc:afb8d9f5a7c5d3814ba79ce42a81f65ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent/to self connectivity, 1 vector element per parent.  <a href="#afb8d9f5a7c5d3814ba79ce42a81f65ac">More...</a><br /></td></tr>
-<tr class="separator:afb8d9f5a7c5d3814ba79ce42a81f65ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697a4ae009ff2310f632d6f95585a736"><td class="memItemLeft" align="right" valign="top"><a id="a697a4ae009ff2310f632d6f95585a736"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#a697a4ae009ff2310f632d6f95585a736">elemind</a></td></tr>
+<tr class="memdesc:a697a4ae009ff2310f632d6f95585a736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices of the active elements of the owning mesh. <br /></td></tr>
+<tr class="separator:a697a4ae009ff2310f632d6f95585a736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c8586d78468964ee5c4e73923858f33"><td class="memItemLeft" align="right" valign="top"><a id="a1c8586d78468964ee5c4e73923858f33"></a>
+std::vector&lt; <a class="el" href="classmesh.html">mesh</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#a1c8586d78468964ee5c4e73923858f33">parentmesh</a></td></tr>
+<tr class="memdesc:a1c8586d78468964ee5c4e73923858f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of pointers to the mesh which are coarser (parents). <br /></td></tr>
+<tr class="separator:a1c8586d78468964ee5c4e73923858f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ef0281fc3797b7e4a185b447b8f82a"><td class="memItemLeft" align="right" valign="top"><a id="a94ef0281fc3797b7e4a185b447b8f82a"></a>
+std::vector&lt; <a class="el" href="classmesh.html">mesh</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#a94ef0281fc3797b7e4a185b447b8f82a">childmesh</a></td></tr>
+<tr class="memdesc:a94ef0281fc3797b7e4a185b447b8f82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of pointers to the mesh which are finer (children). <br /></td></tr>
+<tr class="separator:a94ef0281fc3797b7e4a185b447b8f82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7b73be962ea0b7639b613e1ebb6fe71"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_hashed_vector_safe.html">HashedVectorSafe</a>&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmeshdependence.html#af7b73be962ea0b7639b613e1ebb6fe71">parentconn</a></td></tr>
+<tr class="memdesc:af7b73be962ea0b7639b613e1ebb6fe71"><td class="mdescLeft">&#160;</td><td class="mdescRight">parent/to self connectivity, 1 vector element per parent.  <a href="#af7b73be962ea0b7639b613e1ebb6fe71">More...</a><br /></td></tr>
+<tr class="separator:af7b73be962ea0b7639b613e1ebb6fe71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -152,10 +165,10 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>mesh</b></td></tr>
 <div class="textblock"><p>Class for connecting meshes. </p>
 <p>Stores a vector of mesh references for parent and children. Needs to support partial meshes for constraint handling. </p>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00439">439</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00488">488</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="afb8d9f5a7c5d3814ba79ce42a81f65ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb8d9f5a7c5d3814ba79ce42a81f65ac">&#9670;&nbsp;</a></span>parentconn</h2>
+<a id="af7b73be962ea0b7639b613e1ebb6fe71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b73be962ea0b7639b613e1ebb6fe71">&#9670;&nbsp;</a></span>parentconn</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,7 +177,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>mesh</b></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt;<a class="el" href="class_hashed_vector_safe.html">HashedVectorSafe</a>&lt;int,int&gt; &gt; meshdependence::parentconn</td>
+          <td class="memname">std::vector&lt;<a class="el" href="class_hashed_vector_safe.html">HashedVectorSafe</a>&lt;int,int&gt; &gt; meshdependence::parentconn</td>
         </tr>
       </table>
   </td>
@@ -177,7 +190,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>mesh</b></td></tr>
 <p>parent/to self connectivity, 1 vector element per parent. </p>
 <p>This is an vector with the index of each parent element stored at the location of each self element. </p>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00453">453</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00502">502</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
 
 </div>
 </div>

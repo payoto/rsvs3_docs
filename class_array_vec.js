@@ -3,9 +3,11 @@ var class_array_vec =
     [ "~ArrayVec", "class_array_vec.html#a6ab2d55c386294a8649d28eb58a33dfc", null ],
     [ "assign", "class_array_vec.html#a2a5f43f245a0facb85e2b6f68f075699", null ],
     [ "clear", "class_array_vec.html#aadd750102ab28479993aa94c96d4d5d4", null ],
-    [ "operator[]", "class_array_vec.html#abc7eabc2b2bf617472cb70d6b001b2df", null ],
-    [ "operator[]", "class_array_vec.html#a2fd8955eec1d440c87c963a3b3bb33d4", null ],
+    [ "operator[]", "class_array_vec.html#a71f2768076c87ee73671185a896d7d82", null ],
+    [ "operator[]", "class_array_vec.html#a214df23d183fbf5d8897b79195e12a11", null ],
     [ "size", "class_array_vec.html#a6f1a5be890001dc6b0a075d01a2a3d76", null ],
-    [ "dim", "class_array_vec.html#a18bb3c0b106963c2d0b334df2320640a", null ],
-    [ "elems", "class_array_vec.html#a41a5b0630db3ea9313c6634461868263", null ]
+    [ "size", "class_array_vec.html#a5d7a9616e9c816803a79bb8d96d52a3e", null ],
+    [ "write", "class_array_vec.html#a4e0c5dd0369c1936b417bdc3eb335d38", null ],
+    [ "dim", "class_array_vec.html#a3b0efaabeb9929b9cc2b20988639d4a0", null ],
+    [ "elems", "class_array_vec.html#abd2aa65d7d5906c3b9a29b8e7feaf37e", null ]
 ];

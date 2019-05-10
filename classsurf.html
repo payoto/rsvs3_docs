@@ -116,6 +116,9 @@ Inheritance diagram for surf:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ac9e3dd72237ba883e10e770c3963aa5f"><td class="memItemLeft" align="right" valign="top"><a id="ac9e3dd72237ba883e10e770c3963aa5f"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vertind</b> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin) const</td></tr>
+<tr class="separator:ac9e3dd72237ba883e10e770c3963aa5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee0f815cc15e66cf939ce6d796ef584c"><td class="memItemLeft" align="right" valign="top"><a id="aee0f815cc15e66cf939ce6d796ef584c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>disp</b> () const</td></tr>
 <tr class="separator:aee0f815cc15e66cf939ce6d796ef584c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +134,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>PrepareForUse</b> ()<
 <tr class="memitem:a6f14b2a81ca8e2bf3a43636d668938e5"><td class="memItemLeft" align="right" valign="top"><a id="a6f14b2a81ca8e2bf3a43636d668938e5"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isready</b> (bool isInMesh) const</td></tr>
 <tr class="separator:a6f14b2a81ca8e2bf3a43636d668938e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6ebf9a29ac112cdff581328ed99f7b"><td class="memItemLeft" align="right" valign="top"><a id="adf6ebf9a29ac112cdff581328ed99f7b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsOrdered</b> () const</td></tr>
+<tr class="separator:adf6ebf9a29ac112cdff581328ed99f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfb2a3b3401fb8a0c615fb1c11af9b4d"><td class="memItemLeft" align="right" valign="top"><a id="acfb2a3b3401fb8a0c615fb1c11af9b4d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>read</b> (FILE *fid)</td></tr>
 <tr class="separator:acfb2a3b3401fb8a0c615fb1c11af9b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,12 +146,15 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (FILE *fid)
 <tr class="memitem:a3381f4e8d27cbea5146fc5f21e0e86d2"><td class="memItemLeft" align="right" valign="top"><a id="a3381f4e8d27cbea5146fc5f21e0e86d2"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>OrderEdges</b> (<a class="el" href="classmesh.html">mesh</a> *meshin)</td></tr>
 <tr class="separator:a3381f4e8d27cbea5146fc5f21e0e86d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f4ee07f965cd4b38fcb0f431c011d0d"><td class="memItemLeft" align="right" valign="top"><a id="a4f4ee07f965cd4b38fcb0f431c011d0d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>SplitSurface</b> (<a class="el" href="classmesh.html">mesh</a> &amp;meshin, const vector&lt; int &gt; &amp;fullEdgeInd)</td></tr>
-<tr class="separator:a4f4ee07f965cd4b38fcb0f431c011d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06ba98390fea02caa623e7240691a5b8"><td class="memItemLeft" align="right" valign="top"><a id="a06ba98390fea02caa623e7240691a5b8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>OrderedVerts</b> (const <a class="el" href="classmesh.html">mesh</a> *meshin, vector&lt; int &gt; &amp;vertList) const</td></tr>
-<tr class="separator:a06ba98390fea02caa623e7240691a5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb95ed97581295c5c589f564f4e26634"><td class="memItemLeft" align="right" valign="top"><a id="adb95ed97581295c5c589f564f4e26634"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>SplitSurface</b> (<a class="el" href="classmesh.html">mesh</a> &amp;meshin, const std::vector&lt; int &gt; &amp;fullEdgeInd)</td></tr>
+<tr class="separator:adb95ed97581295c5c589f564f4e26634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3852a1daac9e0610798661caec960088"><td class="memItemLeft" align="right" valign="top"><a id="a3852a1daac9e0610798661caec960088"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>OrderedVerts</b> (const <a class="el" href="classmesh.html">mesh</a> *meshin, std::vector&lt; int &gt; &amp;vertList) const</td></tr>
+<tr class="separator:a3852a1daac9e0610798661caec960088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfcdf3aeb0cc3afc25aaf68ad6ff453b"><td class="memItemLeft" align="right" valign="top"><a id="adfcdf3aeb0cc3afc25aaf68ad6ff453b"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>OrderedVerts</b> (const <a class="el" href="classmesh.html">mesh</a> *meshin) const</td></tr>
+<tr class="separator:adfcdf3aeb0cc3afc25aaf68ad6ff453b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4841881cdee76cb0fa7d08995baff633"><td class="memItemLeft" align="right" valign="top"><a id="a4841881cdee76cb0fa7d08995baff633"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TightenConnectivity</b> ()</td></tr>
 <tr class="separator:a4841881cdee76cb0fa7d08995baff633"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +164,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>FlipVolus</b> ()</td>
 <tr class="memitem:aba6c51f3ff2f0c610b7e0f8391483d11"><td class="memItemLeft" align="right" valign="top"><a id="aba6c51f3ff2f0c610b7e0f8391483d11"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>edgeconneq</b> (const <a class="el" href="classsurf.html">surf</a> &amp;other, bool recurse=true) const</td></tr>
 <tr class="separator:aba6c51f3ff2f0c610b7e0f8391483d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586dbff9427cd4b2118526b07a138b18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcoordvec.html">coordvec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsurf.html#a586dbff9427cd4b2118526b07a138b18">PseudoCentroid</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin) const</td></tr>
+<tr class="memdesc:a586dbff9427cd4b2118526b07a138b18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the length weighted pseudo-centroid of a surface.  <a href="#a586dbff9427cd4b2118526b07a138b18">More...</a><br /></td></tr>
+<tr class="separator:a586dbff9427cd4b2118526b07a138b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99314fcc6859cd3e60589dc543561f47"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsurf.html#a99314fcc6859cd3e60589dc543561f47">PseudoCentroid</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin, <a class="el" href="classcoordvec.html">coordvec</a> &amp;coord) const</td></tr>
+<tr class="memdesc:a99314fcc6859cd3e60589dc543561f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the length weighted pseudo-centroid of a surface.  <a href="#a99314fcc6859cd3e60589dc543561f47">More...</a><br /></td></tr>
+<tr class="separator:a99314fcc6859cd3e60589dc543561f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bb8da6345b15a1cc92cfac3fce7f527"><td class="memItemLeft" align="right" valign="top"><a id="a2bb8da6345b15a1cc92cfac3fce7f527"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>surf</b> (const <a class="el" href="classsurf.html">surf</a> &amp;oldSurf)</td></tr>
 <tr class="separator:a2bb8da6345b15a1cc92cfac3fce7f527"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,12 +201,12 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>error</b></td></tr>
 <tr class="memitem:a4b7c84deb7f61e2138e7561c7b39d559"><td class="memItemLeft" align="right" valign="top"><a id="a4b7c84deb7f61e2138e7561c7b39d559"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>area</b></td></tr>
 <tr class="separator:a4b7c84deb7f61e2138e7561c7b39d559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b9a50c4a01c2c457e2895f1fa755988"><td class="memItemLeft" align="right" valign="top"><a id="a4b9a50c4a01c2c457e2895f1fa755988"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>edgeind</b></td></tr>
-<tr class="separator:a4b9a50c4a01c2c457e2895f1fa755988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a662abde16394171115070863e43abc21"><td class="memItemLeft" align="right" valign="top"><a id="a662abde16394171115070863e43abc21"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>voluind</b></td></tr>
-<tr class="separator:a662abde16394171115070863e43abc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c777ab61ab0ff5f5d9b4fe75dd9534a"><td class="memItemLeft" align="right" valign="top"><a id="a0c777ab61ab0ff5f5d9b4fe75dd9534a"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>edgeind</b></td></tr>
+<tr class="separator:a0c777ab61ab0ff5f5d9b4fe75dd9534a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9a8bd6e4ba99a68d14d79cfafb60bfd"><td class="memItemLeft" align="right" valign="top"><a id="ab9a8bd6e4ba99a68d14d79cfafb60bfd"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>voluind</b></td></tr>
+<tr class="separator:ab9a8bd6e4ba99a68d14d79cfafb60bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_array_structpart"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_array_structpart')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_array_structpart.html">ArrayStructpart</a></td></tr>
 <tr class="memitem:a40bb06d6c85c4761b4b3f42b91be8b0d inherit pub_attribs_class_array_structpart"><td class="memItemLeft" align="right" valign="top"><a id="a40bb06d6c85c4761b4b3f42b91be8b0d"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> =0</td></tr>
@@ -219,8 +234,79 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>mesh</b></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for surface object in a mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00233">233</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00254">254</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a586dbff9427cd4b2118526b07a138b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a586dbff9427cd4b2118526b07a138b18">&#9670;&nbsp;</a></span>PseudoCentroid() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcoordvec.html">coordvec</a> surf::PseudoCentroid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the length weighted pseudo-centroid of a surface. </p>
+<p>For a more efficient implementation for repeated calls see the other <a class="el" href="classsurf.html#a586dbff9427cd4b2118526b07a138b18" title="Calculates the length weighted pseudo-centroid of a surface.">surf::PseudoCentroid</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The mesh the surface is part of</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The coordinate of the pseudo centroid of the surface. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l00540">540</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a99314fcc6859cd3e60589dc543561f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99314fcc6859cd3e60589dc543561f47">&#9670;&nbsp;</a></span>PseudoCentroid() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int surf::PseudoCentroid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcoordvec.html">coordvec</a> &amp;&#160;</td>
+          <td class="paramname"><em>coord</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the length weighted pseudo-centroid of a surface. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The mesh the surface is part of </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">coord</td><td>The coordinate vector to which the position is written.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the length of the perimeter of the surface. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l00556">556</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>incl/<a class="el" href="mesh_8hpp_source.html">mesh.hpp</a></li>
 <li>src/grid/<a class="el" href="mesh_8cpp_source.html">mesh.cpp</a></li>
 </ul>

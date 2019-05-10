@@ -1,8 +1,14 @@
 var searchData=
 [
-  ['resizelagrangianmultiplier',['ResizeLagrangianMultiplier',['../_r_s_v_scalc_8hpp.html#a4fa1f9066d2a564a1f9eb9f6a597f915',1,'RSVScalc_core.cpp']]],
-  ['returnconstrtomesh',['ReturnConstrToMesh',['../class_r_s_v_scalc.html#a40de95f4eb102e1ccbbb0bc45a3646dd',1,'RSVScalc::ReturnConstrToMesh(triangulation &amp;triRSVS) const'],['../class_r_s_v_scalc.html#a7a5d5b3ba18bc8d4a25c387ce7bffc5d',1,'RSVScalc::ReturnConstrToMesh(mesh &amp;meshin, double volu::*mp=&amp;volu::volume) const']]],
-  ['returnvelocities',['ReturnVelocities',['../class_r_s_v_scalc.html#acecbff133c71577b404985fba25f9305',1,'RSVScalc']]],
-  ['rsvsvoronoimesh',['RSVSVoronoiMesh',['../tetgenrsvs_8hpp.html#adcc8dcb44216e9a74a00d670ba8ab8f0',1,'tetgen']]],
-  ['runsilent',['RunSilent',['../classrsvstest_1_1customtest.html#ab28b9353a1ce7a7d57ef83909153bb9a',1,'rsvstest::customtest']]]
+  ['planenormal',['PlaneNormal',['../mesh_8hpp.html#a4569e4a7e1ffb66b717aa63faad557cf',1,'mesh.cpp']]],
+  ['planenormalandangle',['PlaneNormalAndAngle',['../mesh_8hpp.html#a42d6b73a426717f34aeac4194d0ea887',1,'mesh.cpp']]],
+  ['points2mesh',['Points2Mesh',['../mesh_8hpp.html#a345f6689c0ed6cf4a8e75fd0ede62953',1,'mesh.cpp']]],
+  ['preparematricesforsqp',['PrepareMatricesForSQP',['../class_r_s_v_scalc.html#a4beb00b1a4893b57957df2ec3423e898',1,'RSVScalc']]],
+  ['preparematricesforsqpsensitivity',['PrepareMatricesForSQPSensitivity',['../class_r_s_v_scalc.html#ac21fb49118167107c192eb0b9f1f25bc',1,'RSVScalc::PrepareMatricesForSQPSensitivity(const Eigen::MatrixXd &amp;dConstrAct, const Eigen::MatrixXd &amp;HConstrAct, const Eigen::MatrixXd &amp;HObjAct, Eigen::MatrixXd &amp;sensMult, Eigen::MatrixXd &amp;sensInv, Eigen::MatrixXd &amp;sensRes) const'],['../class_r_s_v_scalc.html#abe3a8b71d401cd221b48b6cfb875da38',1,'RSVScalc::PrepareMatricesForSQPSensitivity(const MatrixXd_sparse &amp;dConstrAct, const MatrixXd_sparse &amp;HConstrAct, MatrixXd_sparse &amp;HObjAct, Eigen::MatrixXd &amp;sensMult, MatrixXd_sparse &amp;sensInv, Eigen::MatrixXd &amp;sensRes) const']]],
+  ['preparesnakeforcfd',['PrepareSnakeForCFD',['../meshprocessing_8hpp.html#aead269283cbcc6d89589bc3a08cef5a4',1,'meshprocessing.cpp']]],
+  ['preptriangulationcalc',['PrepTriangulationCalc',['../class_r_s_v_scalc.html#a2e3af9d2262b916e2d48fd55055f51af',1,'RSVScalc']]],
+  ['print2screen',['Print2Screen',['../class_r_s_v_scalc.html#aac59abaae06334820dd4c70a66e0c284',1,'RSVScalc']]],
+  ['projectray',['ProjectRay',['../tetgenrsvs_8hpp.html#a16b23f9f034d67f61161c8c672752a77',1,'tetgen::internal']]],
+  ['pseudocentroid',['PseudoCentroid',['../classvolu.html#aebf77670dd212621316fb6b5987c01f1',1,'volu::PseudoCentroid()'],['../classsurf.html#a586dbff9427cd4b2118526b07a138b18',1,'surf::PseudoCentroid(const mesh &amp;meshin) const'],['../classsurf.html#a99314fcc6859cd3e60589dc543561f47',1,'surf::PseudoCentroid(const mesh &amp;meshin, coordvec &amp;coord) const']]],
+  ['pseudosurfaceangle',['PseudoSurfaceAngle',['../meshprocessing_8hpp.html#aa521db33f52e6980fc983fe66e423363',1,'meshprocessing.cpp']]]
 ];

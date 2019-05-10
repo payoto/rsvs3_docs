@@ -8,7 +8,9 @@ var matrixtools_8hpp =
     [ "PrintMatrix", "matrixtools_8hpp.html#a666b532ecbef3f3c7e03b2ca898b9dee", null ],
     [ "PrintMatrixFile", "matrixtools_8hpp.html#ad072f0985d7147d4006dd260c393edac", null ],
     [ "PrintMatrixFile", "matrixtools_8hpp.html#a61ebfd339454226943785d49d97fe1d9", null ],
-    [ "StreamOutVector", "matrixtools_8hpp.html#ad032c2c74a74729569af03242f8ff3c1", null ],
-    [ "StreamStatistics", "matrixtools_8hpp.html#a4895174d74d8761d8413472709d0dda5", null ],
+    [ "PrintMatrixFile", "matrixtools_8hpp.html#adc4e7abf4343df99ed15ae1d44667873", null ],
+    [ "StreamOutVector", "matrixtools_8hpp.html#a9684f9aa33b6bd527f451632f55c9fa6", null ],
+    [ "StreamStatistics", "matrixtools_8hpp.html#a976026be792d7b6f78f9165baa4aad75", null ],
+    [ "Test_Matrix3D", "matrixtools_8hpp.html#aa670e9b1ddc3455fa4589afae6aca2a2", null ],
     [ "VecBy3DimArray", "matrixtools_8hpp.html#a04a34d79c8b742d85079731582ab9a91", null ]
 ];

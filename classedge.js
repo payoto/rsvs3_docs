@@ -7,6 +7,8 @@ var classedge =
     [ "disp", "classedge.html#a3309f6c4fb5e66732c2c790aa058d7c8", null ],
     [ "disptree", "classedge.html#a2b6f3bc8a642f964a6d2600af460ac09", null ],
     [ "GeometricProperties", "classedge.html#aaad4982bf02d1ffb4bf391d6b28e823f", null ],
+    [ "GetLength", "classedge.html#a3f2e831685a3c900da7ec3ca29ba8ac1", null ],
+    [ "InvalidateLength", "classedge.html#a18b79847a2af728cf0996d19ec724f85", null ],
     [ "IsLength0", "classedge.html#a66243d3ef72b8549ac6e552e1a9c0e83", null ],
     [ "isready", "classedge.html#ab6639effa38bfada43102c2f026a91a4", null ],
     [ "Key", "classedge.html#a2ea8f5ed2323576f3e1b6db8350e6b08", null ],
@@ -15,11 +17,13 @@ var classedge =
     [ "operator=", "classedge.html#ad78a8ebec6fcabb4e0b048b0d4e4e8ae", null ],
     [ "PrepareForUse", "classedge.html#ab689b7936068b0e22d467a1b7b945291", null ],
     [ "read", "classedge.html#aff4c62d2c4fdf4c60772a818fec0d03c", null ],
+    [ "SetLength", "classedge.html#ad4f7a3cde42768718f69162bc2f42a62", null ],
     [ "TightenConnectivity", "classedge.html#ae5a4f1c10f4a65e9ff0e532091afe820", null ],
     [ "vertconneq", "classedge.html#aea076515a7cd49527f334ddbeafe6631", null ],
     [ "write", "classedge.html#a324311869d454ae189646a562b8240a6", null ],
     [ "mesh", "classedge.html#ace75720779ab6e28f7a3185f3d1888df", null ],
     [ "edgearray", "classedge.html#a9d6411e3d1e67d4a1053fa00932b2a59", null ],
-    [ "surfind", "classedge.html#a43344d65fb13e4e4133e77358e94e9b6", null ],
-    [ "vertind", "classedge.html#a0b3b6caf1007ac94936dc02059f871fd", null ]
+    [ "length", "classedge.html#a3683d2e96fcc89081575d73ccaace157", null ],
+    [ "surfind", "classedge.html#a834e3beae4e060dc9c2419c956fe6dd1", null ],
+    [ "vertind", "classedge.html#a6c14fa83367ea1ae8b4aeafb30747a5e", null ]
 ];

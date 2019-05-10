@@ -1,6 +1,8 @@
 var parameters_8hpp =
 [
     [ "filltype", "structparam_1_1filltype.html", "structparam_1_1filltype" ],
+    [ "outputtemplate", "classparam_1_1outputtemplate.html", "classparam_1_1outputtemplate" ],
+    [ "tecplottemplate", "classparam_1_1tecplottemplate.html", "classparam_1_1tecplottemplate" ],
     [ "rsvs", "classparam_1_1rsvs.html", "classparam_1_1rsvs" ],
     [ "snaking", "classparam_1_1snaking.html", "classparam_1_1snaking" ],
     [ "voxel", "classparam_1_1voxel.html", "classparam_1_1voxel" ],
@@ -9,9 +11,12 @@ var parameters_8hpp =
     [ "ioin", "classparam_1_1ioin.html", "classparam_1_1ioin" ],
     [ "ioout", "classparam_1_1ioout.html", "classparam_1_1ioout" ],
     [ "files", "classparam_1_1files.html", "classparam_1_1files" ],
+    [ "rsvseps", "classparam_1_1dev_1_1rsvseps.html", "classparam_1_1dev_1_1rsvseps" ],
+    [ "devparam", "classparam_1_1dev_1_1devparam.html", "classparam_1_1dev_1_1devparam" ],
     [ "parameters", "classparam_1_1parameters.html", "classparam_1_1parameters" ],
     [ "exports", "parameters_8hpp.html#a5e4ebe00dd4c0ee51f399bb54e9b71ce", null ],
     [ "realbounds", "parameters_8hpp.html#aef1c5e6cfdcc3f955a95493798f914db", null ],
+    [ "varconfig", "parameters_8hpp.html#ae96c8d60ccc8b332158c17bfa5a5ac83", null ],
     [ "autoflat", "parameters_8hpp.html#a5a2878e3767bc28c30e16ffb8585d9bc", null ],
     [ "base", "parameters_8hpp.html#a24518920df69df8cbd833ce2d34577d1", null ],
     [ "defaultconf", "parameters_8hpp.html#ab5304d0e88cd160e7a75535f4a835780", null ],
@@ -22,6 +27,7 @@ var parameters_8hpp =
     [ "read", "parameters_8hpp.html#acf3ed8d51f1e6caff152bb5221314177", null ],
     [ "readflat", "parameters_8hpp.html#a5b43c92c4b6c6664463c9f405d3ea3d8", null ],
     [ "symmetry", "parameters_8hpp.html#a46d760584aae3f848ce7ccfdf02acc84", null ],
+    [ "symmetry_makefillactive", "parameters_8hpp.html#a1ada57098010db9fb1182c2e24984226", null ],
     [ "updatefromstring", "parameters_8hpp.html#aef430f64396b1fd89faad2f3aa87c9f1", null ],
     [ "write", "parameters_8hpp.html#a9187732795ba6a92005553d1ee9a9aca", null ],
     [ "writeflat", "parameters_8hpp.html#ae65202ff17b422a26b53d9c0390591c5", null ]

@@ -101,7 +101,6 @@ $(document).ready(function(){initNavTree('snake_8hpp.html','');});
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
-<code>#include &lt;cfloat&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &quot;<a class="el" href="arraystructures_8hpp_source.html">arraystructures.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>&quot;</code><br />
@@ -135,12 +134,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a56484c861ec2b3ef58103020d9a44d8d"><td class="memItemLeft" align="right" valign="top"><a id="a56484c861ec2b3ef58103020d9a44d8d"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>SnaxImpactDt</b> (const <a class="el" href="classsnax.html">snax</a> &amp;snax1, const <a class="el" href="classsnax.html">snax</a> &amp;snax2)</td></tr>
 <tr class="separator:a56484c861ec2b3ef58103020d9a44d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8b381650620b4496bc82b669d48f413"><td class="memItemLeft" align="right" valign="top"><a id="ad8b381650620b4496bc82b669d48f413"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsAproxEqual</b> (double d1, double d2)</td></tr>
-<tr class="separator:ad8b381650620b4496bc82b669d48f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55abac40ad39959e0c1b3018c95152b"><td class="memItemLeft" align="right" valign="top"><a id="ac55abac40ad39959e0c1b3018c95152b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>CompareSnakeInternalStatus</b> (const vector&lt; bool &gt; &amp;thisVec, bool thisFlipped, const vector&lt; bool &gt; &amp;otherVec, bool otherFlipped)</td></tr>
-<tr class="separator:ac55abac40ad39959e0c1b3018c95152b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b4cb100b06a8aaba81f7611fdddb5ec"><td class="memItemLeft" align="right" valign="top"><a id="a6b4cb100b06a8aaba81f7611fdddb5ec"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>CompareSnakeInternalStatus</b> (const std::vector&lt; bool &gt; &amp;thisVec, bool thisFlipped, const std::vector&lt; bool &gt; &amp;otherVec, bool otherFlipped)</td></tr>
+<tr class="separator:a6b4cb100b06a8aaba81f7611fdddb5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84f766c61fb272f5ffa4606d360b7ac3"><td class="memItemLeft" align="right" valign="top"><a id="a84f766c61fb272f5ffa4606d360b7ac3"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Test_SnakeStructures</b> ()</td></tr>
 <tr class="separator:a84f766c61fb272f5ffa4606d360b7ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,12 +164,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Test_snakeOrderEdges</
 <tr class="memitem:acee91493da6b17a5ace85129a316b980"><td class="memItemLeft" align="right" valign="top"><a id="acee91493da6b17a5ace85129a316b980"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Test_snakeinitflat</b> ()</td></tr>
 <tr class="separator:acee91493da6b17a5ace85129a316b980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ed7ab97411fabf551ff8a7360ce8b5f"><td class="memItemLeft" align="right" valign="top"><a id="a7ed7ab97411fabf551ff8a7360ce8b5f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Test_stepalgo</b> (<a class="el" href="classsnake.html">snake</a> &amp;testSnake, vector&lt; int &gt; &amp;isImpact)</td></tr>
-<tr class="separator:a7ed7ab97411fabf551ff8a7360ce8b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a153b3c8fdb9b94ad36f93aeb241ac800"><td class="memItemLeft" align="right" valign="top"><a id="a153b3c8fdb9b94ad36f93aeb241ac800"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Test_stepalgo_mergeclean</b> (<a class="el" href="classsnake.html">snake</a> &amp;testSnake, vector&lt; int &gt; &amp;isImpact)</td></tr>
-<tr class="separator:a153b3c8fdb9b94ad36f93aeb241ac800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2197ce667b902a88d30bdda3f56b61f2"><td class="memItemLeft" align="right" valign="top"><a id="a2197ce667b902a88d30bdda3f56b61f2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Test_stepalgo</b> (<a class="el" href="classsnake.html">snake</a> &amp;testSnake, std::vector&lt; int &gt; &amp;isImpact)</td></tr>
+<tr class="separator:a2197ce667b902a88d30bdda3f56b61f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e6acff9de901464dd88fb218a42ff6"><td class="memItemLeft" align="right" valign="top"><a id="a31e6acff9de901464dd88fb218a42ff6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Test_stepalgo_mergeclean</b> (<a class="el" href="classsnake.html">snake</a> &amp;testSnake, std::vector&lt; int &gt; &amp;isImpact)</td></tr>
+<tr class="separator:a31e6acff9de901464dd88fb218a42ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides the core restricted surface snake container. </p>

@@ -4,6 +4,7 @@ var rsvsjson_8hpp =
     [ "json", "rsvsjson_8hpp.html#a2d21a04d2c6164d67a0f0bf50c8b053d", null ],
     [ "flatupdate", "rsvsjson_8hpp.html#a2d6e454b2138575660057c249497f48c", null ],
     [ "from_json", "rsvsjson_8hpp.html#abb44c5600ccfef9cbc5151777315d026", null ],
+    [ "from_json", "rsvsjson_8hpp.html#a59310c5de86cc3fc8b4d8e74275eadd8", null ],
     [ "from_json", "rsvsjson_8hpp.html#a916bd0b1027e9d959838cd23aa3bc92e", null ],
     [ "from_json", "rsvsjson_8hpp.html#a7d47e24297d9b32a8c3254bd352208c4", null ],
     [ "from_json", "rsvsjson_8hpp.html#ab502bc9ef06f12952a615879a4d14841", null ],
@@ -13,8 +14,11 @@ var rsvsjson_8hpp =
     [ "from_json", "rsvsjson_8hpp.html#af2d3daa7df7b105c6806d4ef3b2645d7", null ],
     [ "from_json", "rsvsjson_8hpp.html#a31fd6e7925128744e4274eec992b5192", null ],
     [ "from_json", "rsvsjson_8hpp.html#aee0a341b1a843a27bb90e192481c564a", null ],
+    [ "from_json", "rsvsjson_8hpp.html#a9ef9a5d91d12a44e38da239aa72db3b4", null ],
+    [ "from_json", "rsvsjson_8hpp.html#adaa359f33b0e9d4c0771b743571faced", null ],
     [ "from_json", "rsvsjson_8hpp.html#a10cb013cdb988c99ff70ec6e53fc8e99", null ],
     [ "to_json", "rsvsjson_8hpp.html#a13c4a0d9a920c959dddf946173f3dcfb", null ],
+    [ "to_json", "rsvsjson_8hpp.html#a868d0a75630c690f5d5d2fba3ab410cc", null ],
     [ "to_json", "rsvsjson_8hpp.html#ab08be41e946da53cc1cb383bb3365aa0", null ],
     [ "to_json", "rsvsjson_8hpp.html#a3a7a68dd76052ae2660c4a9b4d4e24dd", null ],
     [ "to_json", "rsvsjson_8hpp.html#a73907008d22beec939a9f9320d6e63e5", null ],
@@ -24,5 +28,7 @@ var rsvsjson_8hpp =
     [ "to_json", "rsvsjson_8hpp.html#add6c142e67e784239577f77b6b13b585", null ],
     [ "to_json", "rsvsjson_8hpp.html#acd9440a017adb8cefd8ea0db392b66f8", null ],
     [ "to_json", "rsvsjson_8hpp.html#a3f2ee65e4e3d63da53ee82e3bae03f83", null ],
+    [ "to_json", "rsvsjson_8hpp.html#a1410faeab302eaf0afcf7ed2b5c69519", null ],
+    [ "to_json", "rsvsjson_8hpp.html#ab7642c1f323ecbaa6cbc22242aa18eed", null ],
     [ "to_json", "rsvsjson_8hpp.html#a60ce6b8ddbb78597c650b7f5f8b2ac9c", null ]
 ];

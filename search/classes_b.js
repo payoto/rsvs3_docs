@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['parameters',['parameters',['../classparam_1_1parameters.html',1,'param']]],
-  ['pointparam',['pointparam',['../structtetgenio_1_1pointparam.html',1,'tetgenio']]],
-  ['polygon',['polygon',['../structtetgenio_1_1polygon.html',1,'tetgenio']]]
+  ['optparameters',['optparameters',['../classtetgenmesh_1_1optparameters.html',1,'tetgenmesh']]],
+  ['outputtemplate',['outputtemplate',['../classparam_1_1outputtemplate.html',1,'param']]]
 ];

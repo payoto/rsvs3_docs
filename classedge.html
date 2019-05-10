@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('classedge.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classedge-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -141,11 +142,20 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>TightenConnectivity</
 <tr class="separator:ae5a4f1c10f4a65e9ff0e532091afe820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaad4982bf02d1ffb4bf391d6b28e823f"><td class="memItemLeft" align="right" valign="top"><a id="aaad4982bf02d1ffb4bf391d6b28e823f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedge.html#aaad4982bf02d1ffb4bf391d6b28e823f">GeometricProperties</a> (const <a class="el" href="classmesh.html">mesh</a> *meshin, <a class="el" href="classcoordvec.html">coordvec</a> &amp;centre, double &amp;length) const</td></tr>
-<tr class="memdesc:aaad4982bf02d1ffb4bf391d6b28e823f"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAth operations in mesh. <br /></td></tr>
+<tr class="memdesc:aaad4982bf02d1ffb4bf391d6b28e823f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Math operations in mesh. <br /></td></tr>
 <tr class="separator:aaad4982bf02d1ffb4bf391d6b28e823f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cce365b7d1ef452df84f1fa2d7d86cc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedge.html#a1cce365b7d1ef452df84f1fa2d7d86cc">Length</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin) const</td></tr>
 <tr class="memdesc:a1cce365b7d1ef452df84f1fa2d7d86cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the edge length.  <a href="#a1cce365b7d1ef452df84f1fa2d7d86cc">More...</a><br /></td></tr>
 <tr class="separator:a1cce365b7d1ef452df84f1fa2d7d86cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4f7a3cde42768718f69162bc2f42a62"><td class="memItemLeft" align="right" valign="top"><a id="ad4f7a3cde42768718f69162bc2f42a62"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>SetLength</b> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
+<tr class="separator:ad4f7a3cde42768718f69162bc2f42a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f2e831685a3c900da7ec3ca29ba8ac1"><td class="memItemLeft" align="right" valign="top"><a id="a3f2e831685a3c900da7ec3ca29ba8ac1"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>GetLength</b> (bool warn=true) const</td></tr>
+<tr class="separator:a3f2e831685a3c900da7ec3ca29ba8ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18b79847a2af728cf0996d19ec724f85"><td class="memItemLeft" align="right" valign="top"><a id="a18b79847a2af728cf0996d19ec724f85"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>InvalidateLength</b> ()</td></tr>
+<tr class="separator:a18b79847a2af728cf0996d19ec724f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29f496890e8d360522f5c0f3b447d56c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classedge.html#a29f496890e8d360522f5c0f3b447d56c">LengthSquared</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin) const</td></tr>
 <tr class="memdesc:a29f496890e8d360522f5c0f3b447d56c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate squared edge length.  <a href="#a29f496890e8d360522f5c0f3b447d56c">More...</a><br /></td></tr>
 <tr class="separator:a29f496890e8d360522f5c0f3b447d56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,12 +184,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9d6411e3d1e67d4a1053fa00932b2a59"><td class="memItemLeft" align="right" valign="top"><a id="a9d6411e3d1e67d4a1053fa00932b2a59"></a>
 friend&#160;</td><td class="memItemRight" valign="bottom"><b>edgearray</b></td></tr>
 <tr class="separator:a9d6411e3d1e67d4a1053fa00932b2a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b3b6caf1007ac94936dc02059f871fd"><td class="memItemLeft" align="right" valign="top"><a id="a0b3b6caf1007ac94936dc02059f871fd"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vertind</b></td></tr>
-<tr class="separator:a0b3b6caf1007ac94936dc02059f871fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43344d65fb13e4e4133e77358e94e9b6"><td class="memItemLeft" align="right" valign="top"><a id="a43344d65fb13e4e4133e77358e94e9b6"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surfind</b></td></tr>
-<tr class="separator:a43344d65fb13e4e4133e77358e94e9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c14fa83367ea1ae8b4aeafb30747a5e"><td class="memItemLeft" align="right" valign="top"><a id="a6c14fa83367ea1ae8b4aeafb30747a5e"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vertind</b></td></tr>
+<tr class="separator:a6c14fa83367ea1ae8b4aeafb30747a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834e3beae4e060dc9c2419c956fe6dd1"><td class="memItemLeft" align="right" valign="top"><a id="a834e3beae4e060dc9c2419c956fe6dd1"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surfind</b></td></tr>
+<tr class="separator:a834e3beae4e060dc9c2419c956fe6dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_array_structpart"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_array_structpart')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_array_structpart.html">ArrayStructpart</a></td></tr>
 <tr class="memitem:a40bb06d6c85c4761b4b3f42b91be8b0d inherit pub_attribs_class_array_structpart"><td class="memItemLeft" align="right" valign="top"><a id="a40bb06d6c85c4761b4b3f42b91be8b0d"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> =0</td></tr>
@@ -188,23 +198,26 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> =0</td></tr>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isBorder</b> =false</td></tr>
 <tr class="separator:a79a9d686f46281b109bc1fa5aa6714a6 inherit pub_attribs_class_array_structpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a3683d2e96fcc89081575d73ccaace157"><td class="memItemLeft" align="right" valign="top"><a id="a3683d2e96fcc89081575d73ccaace157"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>length</b> =rsvs3d::constants::__unsetlength</td></tr>
+<tr class="separator:a3683d2e96fcc89081575d73ccaace157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classmodiftrackpart"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classmodiftrackpart')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classmodiftrackpart.html">modiftrackpart</a></td></tr>
+<tr class="memitem:ae0a8835b88a205740583bfc89a84e71d inherit pro_attribs_classmodiftrackpart"><td class="memItemLeft" align="right" valign="top"><a id="ae0a8835b88a205740583bfc89a84e71d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isModif</b> =true</td></tr>
+<tr class="separator:ae0a8835b88a205740583bfc89a84e71d inherit pro_attribs_classmodiftrackpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:ace75720779ab6e28f7a3185f3d1888df"><td class="memItemLeft" align="right" valign="top"><a id="ace75720779ab6e28f7a3185f3d1888df"></a>
 class&#160;</td><td class="memItemRight" valign="bottom"><b>mesh</b></td></tr>
 <tr class="separator:ace75720779ab6e28f7a3185f3d1888df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classmodiftrackpart"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classmodiftrackpart')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classmodiftrackpart.html">modiftrackpart</a></td></tr>
-<tr class="memitem:ae0a8835b88a205740583bfc89a84e71d inherit pro_attribs_classmodiftrackpart"><td class="memItemLeft" align="right" valign="top"><a id="ae0a8835b88a205740583bfc89a84e71d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isModif</b> =true</td></tr>
-<tr class="separator:ae0a8835b88a205740583bfc89a84e71d inherit pro_attribs_classmodiftrackpart"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for an edge object in a mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00307">307</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00333">333</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a66243d3ef72b8549ac6e552e1a9c0e83"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66243d3ef72b8549ac6e552e1a9c0e83">&#9670;&nbsp;</a></span>IsLength0()</h2>
@@ -242,7 +255,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isModif</b> =true</td
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Wether Length squared is below eps squared. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l01003">1003</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l01424">1424</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
 
 </div>
 </div>
@@ -271,7 +284,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isModif</b> =true</td
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the length of the edge </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l00991">991</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l01409">1409</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
 
 </div>
 </div>
@@ -300,7 +313,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isModif</b> =true</td
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the squared length of the edge </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l00971">971</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l01389">1389</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
 
 </div>
 </div>

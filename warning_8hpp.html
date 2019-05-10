@@ -135,6 +135,12 @@ Macros</h2></td></tr>
 <tr class="memitem:af5ebe63ee11f5db1e8d567a8ff8c8f02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="warning_8hpp.html#af5ebe63ee11f5db1e8d567a8ff8c8f02">RSVS3D_ERROR_ARGUMENT</a>(M)&#160;&#160;&#160;(<a class="el" href="namespacersvs3d.html#afcf63d853114233f5eb705abc03ed337">rsvs3d::error</a>&lt;std::invalid_argument&gt;(M, __PRETTY_FUNCTION__, __FILE__, __LINE__, true))</td></tr>
 <tr class="memdesc:af5ebe63ee11f5db1e8d567a8ff8c8f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throw a invalid_argument.  <a href="#af5ebe63ee11f5db1e8d567a8ff8c8f02">More...</a><br /></td></tr>
 <tr class="separator:af5ebe63ee11f5db1e8d567a8ff8c8f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acebbb9c7e391ef8128a97068ad990636"><td class="memItemLeft" align="right" valign="top"><a id="acebbb9c7e391ef8128a97068ad990636"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RSVS3D_ARGCHECK</b>(E,  M)&#160;&#160;&#160;if(!(E)){<a class="el" href="warning_8hpp.html#af5ebe63ee11f5db1e8d567a8ff8c8f02">RSVS3D_ERROR_ARGUMENT</a>(M);}</td></tr>
+<tr class="separator:acebbb9c7e391ef8128a97068ad990636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64d748f17e07f0165516927a867b482"><td class="memItemLeft" align="right" valign="top"><a id="ad64d748f17e07f0165516927a867b482"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RSVS3D_ARGCHECK_WARN</b>(E,  M)&#160;&#160;&#160;if(!(E)){<a class="el" href="warning_8hpp.html#a92f15d8d3272b62e20ce08200dc13984">RSVS3D_ERROR_NOTHROW</a>(M);}</td></tr>
+<tr class="separator:ad64d748f17e07f0165516927a867b482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7ee4f0fe8635a8869e061cfb5c5bafb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="warning_8hpp.html#ae7ee4f0fe8635a8869e061cfb5c5bafb">RSVS3D_ERROR_RANGE</a>(M)&#160;&#160;&#160;(<a class="el" href="namespacersvs3d.html#afcf63d853114233f5eb705abc03ed337">rsvs3d::error</a>&lt;std::range_error&gt;(M, __PRETTY_FUNCTION__, __FILE__, __LINE__, true))</td></tr>
 <tr class="memdesc:ae7ee4f0fe8635a8869e061cfb5c5bafb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Throw a range_error.  <a href="#ae7ee4f0fe8635a8869e061cfb5c5bafb">More...</a><br /></td></tr>
 <tr class="separator:ae7ee4f0fe8635a8869e061cfb5c5bafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +151,19 @@ Functions</h2></td></tr>
 <tr class="memitem:afcf63d853114233f5eb705abc03ed337"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacersvs3d.html#afcf63d853114233f5eb705abc03ed337">rsvs3d::error</a> (const char *message=&quot;&quot;, const char *caller=&quot;&quot;, const char *file=&quot;&quot;, int line=0, bool throwError=true)</td></tr>
 <tr class="memdesc:afcf63d853114233f5eb705abc03ed337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom error function.  <a href="namespacersvs3d.html#afcf63d853114233f5eb705abc03ed337">More...</a><br /></td></tr>
 <tr class="separator:afcf63d853114233f5eb705abc03ed337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4fd15c3019f33270d4e9c6526d820b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0c4fd15c3019f33270d4e9c6526d820b"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacersvs3d.html#a0c4fd15c3019f33270d4e9c6526d820b">rsvs3d::sign</a> (T val)</td></tr>
+<tr class="memdesc:a0c4fd15c3019f33270d4e9c6526d820b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sign of a type comparable to 0.  <a href="namespacersvs3d.html#a0c4fd15c3019f33270d4e9c6526d820b">More...</a><br /></td></tr>
+<tr class="separator:a0c4fd15c3019f33270d4e9c6526d820b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9db5507068caa569015164007d71543"><td class="memItemLeft" align="right" valign="top"><a id="af9db5507068caa569015164007d71543"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>rsvs3d::TimeStamp</b> (const char *str, int start_s)</td></tr>
+<tr class="separator:af9db5507068caa569015164007d71543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a737581733201a8c0c8021cae2ff02696"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacersvs3d.html#a737581733201a8c0c8021cae2ff02696">rsvs3d::SignedLogScale</a> (double in)</td></tr>
+<tr class="memdesc:a737581733201a8c0c8021cae2ff02696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a signed logscale useful for plotting data.  <a href="namespacersvs3d.html#a737581733201a8c0c8021cae2ff02696">More...</a><br /></td></tr>
+<tr class="separator:a737581733201a8c0c8021cae2ff02696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b73dac0ba0ddf66a68690dcd059a3fd"><td class="memItemLeft" align="right" valign="top"><a id="a4b73dac0ba0ddf66a68690dcd059a3fd"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>rsvs3d::Clock2ms</b> (int clockCycles)</td></tr>
+<tr class="separator:a4b73dac0ba0ddf66a68690dcd059a3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a559ba3ed8ce109bf230741e1fd429acc"><td class="memItemLeft" align="right" valign="top"><a id="a559ba3ed8ce109bf230741e1fd429acc"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowWarning</b> (const char *message)</td></tr>
 <tr class="separator:a559ba3ed8ce109bf230741e1fd429acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,7 +207,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowWarning</b> (con
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00085">85</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00112">112</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
 
 </div>
 </div>
@@ -222,7 +241,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowWarning</b> (con
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00120">120</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00147">147</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
 
 </div>
 </div>
@@ -256,7 +275,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowWarning</b> (con
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00111">111</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00138">138</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
 
 </div>
 </div>
@@ -284,7 +303,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowWarning</b> (con
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00092">92</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00119">119</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
 
 </div>
 </div>
@@ -318,7 +337,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowWarning</b> (con
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00129">129</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00163">163</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
 
 </div>
 </div>
@@ -368,7 +387,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ThrowWarning</b> (con
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00102">102</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00129">129</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
 
 </div>
 </div>
@@ -423,7 +442,7 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00144">144</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00178">178</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
 
 </div>
 </div>

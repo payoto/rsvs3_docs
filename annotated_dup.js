@@ -5,9 +5,13 @@ var annotated_dup =
     ] ],
     [ "integrate", null, [
       [ "iteratereturns", "classintegrate_1_1iteratereturns.html", "classintegrate_1_1iteratereturns" ],
-      [ "RSVSclass", "classintegrate_1_1_r_s_v_sclass.html", "classintegrate_1_1_r_s_v_sclass" ]
+      [ "RSVSclass", "classintegrate_1_1_r_s_v_sclass.html", "classintegrate_1_1_r_s_v_sclass" ],
+      [ "RSVStecplot", "classintegrate_1_1_r_s_v_stecplot.html", "classintegrate_1_1_r_s_v_stecplot" ]
     ] ],
     [ "param", "namespaceparam.html", "namespaceparam" ],
+    [ "parse", null, [
+      [ "ParserOutput", "classparse_1_1_parser_output.html", "classparse_1_1_parser_output" ]
+    ] ],
     [ "rsvs3d", "namespacersvs3d.html", "namespacersvs3d" ],
     [ "rsvstest", "namespacersvstest.html", "namespacersvstest" ],
     [ "tetgen", null, [
@@ -24,6 +28,7 @@ var annotated_dup =
     [ "edge", "classedge.html", "classedge" ],
     [ "HashedMap", "class_hashed_map.html", "class_hashed_map" ],
     [ "HashedVector", "class_hashed_vector.html", "class_hashed_vector" ],
+    [ "HashedVectorPair", "class_hashed_vector_pair.html", "class_hashed_vector_pair" ],
     [ "HashedVectorSafe", "class_hashed_vector_safe.html", "class_hashed_vector_safe" ],
     [ "LengthEdge", "class_length_edge.html", "class_length_edge" ],
     [ "mesh", "classmesh.html", "classmesh" ],
@@ -40,6 +45,8 @@ var annotated_dup =
     [ "snaxarray", "classsnaxarray.html", "classsnaxarray" ],
     [ "snaxedge", "classsnaxedge.html", "classsnaxedge" ],
     [ "snaxsurf", "classsnaxsurf.html", "classsnaxsurf" ],
+    [ "SparseMatrixTriplet", "class_sparse_matrix_triplet.html", "class_sparse_matrix_triplet" ],
+    [ "sparsetripletelement", "classsparsetripletelement.html", "classsparsetripletelement" ],
     [ "surf", "classsurf.html", "classsurf" ],
     [ "SurfCentroid", "class_surf_centroid.html", "class_surf_centroid" ],
     [ "tecplotfile", "classtecplotfile.html", "classtecplotfile" ],
@@ -51,8 +58,11 @@ var annotated_dup =
     [ "trianglepoint", "classtrianglepoint.html", "classtrianglepoint" ],
     [ "trianglesurf", "classtrianglesurf.html", "classtrianglesurf" ],
     [ "triangulation", "classtriangulation.html", "classtriangulation" ],
+    [ "triarray", "classtriarray.html", null ],
     [ "TriFunc", "class_tri_func.html", "class_tri_func" ],
+    [ "tripointarray", "classtripointarray.html", null ],
     [ "TriStruct", "class_tri_struct.html", "class_tri_struct" ],
+    [ "trisurfarray", "classtrisurfarray.html", null ],
     [ "vert", "classvert.html", "classvert" ],
     [ "volu", "classvolu.html", "classvolu" ],
     [ "Volume", "class_volume.html", "class_volume" ],

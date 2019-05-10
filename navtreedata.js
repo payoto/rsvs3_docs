@@ -57,14 +57,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"class_r_s_v_scalc.html#a63d62e08a24577340e895ef277e2706e",
-"classmesh.html#ad8e54d7f9ebe9730a1cc0123935a17f8",
-"classsnaxsurf.html#ae0ad9b97fe88e76ac9a3d0af4f786854",
-"classtetgenio.html#a395bd7fc3f66dd013efd5176a0d54265",
-"classtetgenmesh.html#a560fe4942b4bab62881403f096532bda",
-"classtetgenmesh.html#ad4860123b88783b943fa6452e886a2cb",
-"classtrianglesurf.html#ab9c3b89d39fcbe62e6cf2d50e0440aa5",
-"snake_8hpp.html#a8fd1f66b07757575392c19a02c635f33"
+"class_hashed_vector.html#a5079a8bfb98fb2a084e186eee137d63c",
+"classedge.html",
+"classparam_1_1snaking.html#ad4180c5e68784a10a3ab529dcf999683",
+"classtecplotfile.html#a67a0a82ba7e5d7c81df3a57f8835859b",
+"classtetgenio.html#ab7bc1e01d32b9c2f9537ccecac5a4a04",
+"classtetgenmesh.html#a6a19601c86a49eed0d2273f1d3b69826",
+"classtetgenmesh.html#ae2cbec9eb2c18f23e2046780841c9f6a",
+"classvert.html#a55ee27f6880edc5bdbfd8503dd3a1911",
+"rsvsjson_8hpp.html#a10cb013cdb988c99ff70ec6e53fc8e99"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

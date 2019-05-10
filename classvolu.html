@@ -113,6 +113,9 @@ Inheritance diagram for volu:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a7c746b31d0ae8d51309a8056662ebbc8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvolu.html#a7c746b31d0ae8d51309a8056662ebbc8">vertind</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin) const</td></tr>
+<tr class="memdesc:a7c746b31d0ae8d51309a8056662ebbc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the vertices a volume is connected to.  <a href="#a7c746b31d0ae8d51309a8056662ebbc8">More...</a><br /></td></tr>
+<tr class="separator:a7c746b31d0ae8d51309a8056662ebbc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc7f7945d1d0e6132c5ec3c9069fa00e"><td class="memItemLeft" align="right" valign="top"><a id="afc7f7945d1d0e6132c5ec3c9069fa00e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ChangeIndices</b> (int nVert, int nEdge, int nSurf, int nVolu)</td></tr>
 <tr class="separator:afc7f7945d1d0e6132c5ec3c9069fa00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,6 +140,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>write</b> (FILE *fid)
 <tr class="memitem:acb39ce1b2c247c3c46de356506e06c8e"><td class="memItemLeft" align="right" valign="top"><a id="acb39ce1b2c247c3c46de356506e06c8e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TightenConnectivity</b> ()</td></tr>
 <tr class="separator:acb39ce1b2c247c3c46de356506e06c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf77670dd212621316fb6b5987c01f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcoordvec.html">coordvec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvolu.html#aebf77670dd212621316fb6b5987c01f1">PseudoCentroid</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin) const</td></tr>
+<tr class="memdesc:aebf77670dd212621316fb6b5987c01f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the length weighted pseudo-centroid of a volume.  <a href="#aebf77670dd212621316fb6b5987c01f1">More...</a><br /></td></tr>
+<tr class="separator:aebf77670dd212621316fb6b5987c01f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bd7c3d4b820775447f319849ddfcf76"><td class="memItemLeft" align="right" valign="top"><a id="a8bd7c3d4b820775447f319849ddfcf76"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>volu</b> (const <a class="el" href="classvolu.html">volu</a> &amp;oldVolu)</td></tr>
 <tr class="separator:a8bd7c3d4b820775447f319849ddfcf76"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,9 +167,9 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>error</b></td></tr>
 <tr class="memitem:ad0eb54eb8fc0604ba572318d3db426c5"><td class="memItemLeft" align="right" valign="top"><a id="ad0eb54eb8fc0604ba572318d3db426c5"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>volume</b></td></tr>
 <tr class="separator:ad0eb54eb8fc0604ba572318d3db426c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b3d6e9c256a547accaa967f301bd087"><td class="memItemLeft" align="right" valign="top"><a id="a3b3d6e9c256a547accaa967f301bd087"></a>
-vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surfind</b></td></tr>
-<tr class="separator:a3b3d6e9c256a547accaa967f301bd087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62683edbbaf9e17690cab171e0c684cb"><td class="memItemLeft" align="right" valign="top"><a id="a62683edbbaf9e17690cab171e0c684cb"></a>
+std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>surfind</b></td></tr>
+<tr class="separator:a62683edbbaf9e17690cab171e0c684cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_array_structpart"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_array_structpart')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_array_structpart.html">ArrayStructpart</a></td></tr>
 <tr class="memitem:a40bb06d6c85c4761b4b3f42b91be8b0d inherit pub_attribs_class_array_structpart"><td class="memItemLeft" align="right" valign="top"><a id="a40bb06d6c85c4761b4b3f42b91be8b0d"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> =0</td></tr>
@@ -175,8 +181,67 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isBorder</b> =false</
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for volume cell objects in a mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00165">165</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+<p class="definition">Definition at line <a class="el" href="mesh_8hpp_source.html#l00184">184</a> of file <a class="el" href="mesh_8hpp_source.html">mesh.hpp</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aebf77670dd212621316fb6b5987c01f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebf77670dd212621316fb6b5987c01f1">&#9670;&nbsp;</a></span>PseudoCentroid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcoordvec.html">coordvec</a> volu::PseudoCentroid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the length weighted pseudo-centroid of a volume. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The mesh the volume is part of</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The coordinate of the pseudo centroid of the volume. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l00580">580</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7c746b31d0ae8d51309a8056662ebbc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c746b31d0ae8d51309a8056662ebbc8">&#9670;&nbsp;</a></span>vertind()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; volu::vertind </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get all the vertices a volume is connected to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The mesh containing the volume object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>List of vertex indices which make corners of the polyhedron. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="mesh_8cpp_source.html#l01704">1704</a> of file <a class="el" href="mesh_8cpp_source.html">mesh.cpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>incl/<a class="el" href="mesh_8hpp_source.html">mesh.hpp</a></li>
 <li>src/grid/<a class="el" href="mesh_8cpp_source.html">mesh.cpp</a></li>
 </ul>

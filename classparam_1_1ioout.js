@@ -11,5 +11,6 @@ var classparam_1_1ioout =
     [ "pathpattern", "classparam_1_1ioout.html#a7dda0669999e3ed786237679a903d7b9", null ],
     [ "pattern", "classparam_1_1ioout.html#a96755850620d79094c4717af4952e6c2", null ],
     [ "redirectcerr", "classparam_1_1ioout.html#a6bf57d745dd799a3be03242bc57f9ea3", null ],
-    [ "redirectcout", "classparam_1_1ioout.html#add92ec40bbd34d28e4c6f53e0d484ade", null ]
+    [ "redirectcout", "classparam_1_1ioout.html#add92ec40bbd34d28e4c6f53e0d484ade", null ],
+    [ "tecplot", "classparam_1_1ioout.html#a80f4ab197e9cb6e2d511c9cad8bb5518", null ]
 ];

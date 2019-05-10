@@ -110,6 +110,19 @@ Functions</h2></td></tr>
 <tr class="memitem:afcf63d853114233f5eb705abc03ed337"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacersvs3d.html#afcf63d853114233f5eb705abc03ed337">error</a> (const char *message=&quot;&quot;, const char *caller=&quot;&quot;, const char *file=&quot;&quot;, int line=0, bool throwError=true)</td></tr>
 <tr class="memdesc:afcf63d853114233f5eb705abc03ed337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom error function.  <a href="#afcf63d853114233f5eb705abc03ed337">More...</a><br /></td></tr>
 <tr class="separator:afcf63d853114233f5eb705abc03ed337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4fd15c3019f33270d4e9c6526d820b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0c4fd15c3019f33270d4e9c6526d820b"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacersvs3d.html#a0c4fd15c3019f33270d4e9c6526d820b">sign</a> (T val)</td></tr>
+<tr class="memdesc:a0c4fd15c3019f33270d4e9c6526d820b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sign of a type comparable to 0.  <a href="#a0c4fd15c3019f33270d4e9c6526d820b">More...</a><br /></td></tr>
+<tr class="separator:a0c4fd15c3019f33270d4e9c6526d820b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9db5507068caa569015164007d71543"><td class="memItemLeft" align="right" valign="top"><a id="af9db5507068caa569015164007d71543"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimeStamp</b> (const char *str, int start_s)</td></tr>
+<tr class="separator:af9db5507068caa569015164007d71543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a737581733201a8c0c8021cae2ff02696"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacersvs3d.html#a737581733201a8c0c8021cae2ff02696">SignedLogScale</a> (double in)</td></tr>
+<tr class="memdesc:a737581733201a8c0c8021cae2ff02696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a signed logscale useful for plotting data.  <a href="#a737581733201a8c0c8021cae2ff02696">More...</a><br /></td></tr>
+<tr class="separator:a737581733201a8c0c8021cae2ff02696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b73dac0ba0ddf66a68690dcd059a3fd"><td class="memItemLeft" align="right" valign="top"><a id="a4b73dac0ba0ddf66a68690dcd059a3fd"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Clock2ms</b> (int clockCycles)</td></tr>
+<tr class="separator:a4b73dac0ba0ddf66a68690dcd059a3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for general purpose tools of the RSVS project. </p>
@@ -185,7 +198,79 @@ template&lt;class E  = rsvs_exception&gt; </div>
 <li><a class="el" href="warning_8hpp.html#afc6f2149c09bf61bf875e28fa6d4cf92" title="Throw a specific error type.">RSVS3D_ERROR_TYPE(M, T)</a> : throws T(M); </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00159">159</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00193">193</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0c4fd15c3019f33270d4e9c6526d820b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c4fd15c3019f33270d4e9c6526d820b">&#9670;&nbsp;</a></span>sign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int rsvs3d::sign </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the sign of a type comparable to 0. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>The value in.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Any type comparable and with a 0 type.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1 for negative, 0 for 0, 1 for positive. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="warning_8hpp_source.html#l00203">203</a> of file <a class="el" href="warning_8hpp_source.html">warning.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a737581733201a8c0c8021cae2ff02696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a737581733201a8c0c8021cae2ff02696">&#9670;&nbsp;</a></span>SignedLogScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double rsvs3d::SignedLogScale </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a signed logscale useful for plotting data. </p>
+<p>This mathematical function is geared towards plotting of data with wildly varying orders of magnitude and has the following properties:</p><ul>
+<li>Order preserving</li>
+<li>0 preserving</li>
+<li>logarithmic for R not including [-DBL_EPSILON, DBL_EPSILON]</li>
+<li>1/log10 in that range</li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>A double to scale.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Scaled value of the double. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="warning_8cpp_source.html#l00037">37</a> of file <a class="el" href="warning_8cpp_source.html">warning.cpp</a>.</p>
 
 </div>
 </div>

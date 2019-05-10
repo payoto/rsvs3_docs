@@ -106,12 +106,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad220d4979252d955404d6fee75e706dc"><td class="memItemLeft" align="right" valign="top"><a id="ad220d4979252d955404d6fee75e706dc"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>customtest</b> (const char *testNameIn=&quot;&quot;)</td></tr>
 <tr class="separator:ad220d4979252d955404d6fee75e706dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d74573beebfb13c6459c0d6a19f02ca"><td class="memItemLeft" align="right" valign="top"><a id="a5d74573beebfb13c6459c0d6a19f02ca"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Run</b> (function&lt; int()&gt; test, const char *funcName)</td></tr>
-<tr class="separator:a5d74573beebfb13c6459c0d6a19f02ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab28b9353a1ce7a7d57ef83909153bb9a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrsvstest_1_1customtest.html#ab28b9353a1ce7a7d57ef83909153bb9a">RunSilent</a> (function&lt; int()&gt; test, const char *funcName)</td></tr>
-<tr class="memdesc:ab28b9353a1ce7a7d57ef83909153bb9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs a test function silently except if it returns an error.  <a href="#ab28b9353a1ce7a7d57ef83909153bb9a">More...</a><br /></td></tr>
-<tr class="separator:ab28b9353a1ce7a7d57ef83909153bb9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5672c42c0b6b6af0a08b7053f76c30e"><td class="memItemLeft" align="right" valign="top"><a id="ac5672c42c0b6b6af0a08b7053f76c30e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Run</b> (std::function&lt; int()&gt; test, const char *funcName)</td></tr>
+<tr class="separator:ac5672c42c0b6b6af0a08b7053f76c30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf268a67261fb95f7b870f289b17c099"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrsvstest_1_1customtest.html#adf268a67261fb95f7b870f289b17c099">RunSilent</a> (std::function&lt; int()&gt; test, const char *funcName)</td></tr>
+<tr class="memdesc:adf268a67261fb95f7b870f289b17c099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs a test function silently except if it returns an error.  <a href="#adf268a67261fb95f7b870f289b17c099">More...</a><br /></td></tr>
+<tr class="separator:adf268a67261fb95f7b870f289b17c099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af803855bf6a0f8ba510dfbd730249438"><td class="memItemLeft" align="right" valign="top"><a id="af803855bf6a0f8ba510dfbd730249438"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PrintSummary</b> ()</td></tr>
 <tr class="separator:af803855bf6a0f8ba510dfbd730249438"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,10 +146,10 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>testName</b></
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for customtest. </p>
 
-<p class="definition">Definition at line <a class="el" href="test_8hpp_source.html#l00051">51</a> of file <a class="el" href="test_8hpp_source.html">test.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="test_8hpp_source.html#l00050">50</a> of file <a class="el" href="test_8hpp_source.html">test.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab28b9353a1ce7a7d57ef83909153bb9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab28b9353a1ce7a7d57ef83909153bb9a">&#9670;&nbsp;</a></span>RunSilent()</h2>
+<a id="adf268a67261fb95f7b870f289b17c099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf268a67261fb95f7b870f289b17c099">&#9670;&nbsp;</a></span>RunSilent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,7 +157,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>testName</b></
         <tr>
           <td class="memname">int customtest::RunSilent </td>
           <td>(</td>
-          <td class="paramtype">function&lt; int()&gt;&#160;</td>
+          <td class="paramtype">std::function&lt; int()&gt;&#160;</td>
           <td class="paramname"><em>test</em>, </td>
         </tr>
         <tr>
@@ -184,7 +184,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>testName</b></
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int number of errors captured. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="test_8cpp_source.html#l00145">145</a> of file <a class="el" href="test_8cpp_source.html">test.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="test_8cpp_source.html#l00158">158</a> of file <a class="el" href="test_8cpp_source.html">test.cpp</a>.</p>
 
 </div>
 </div>

@@ -113,9 +113,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Disp</b> ()</td></tr>
 <tr class="memitem:a4af0804b10cfe2efe5cd35c807449fc6"><td class="memItemLeft" align="right" valign="top"><a id="a4af0804b10cfe2efe5cd35c807449fc6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Calc</b> () override</td></tr>
 <tr class="separator:a4af0804b10cfe2efe5cd35c807449fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a973362c1275479cd11450329c6fc702c"><td class="memItemLeft" align="right" valign="top"><a id="a973362c1275479cd11450329c6fc702c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>assigncentroid</b> (const vector&lt; double &gt; &amp;vecin)</td></tr>
-<tr class="separator:a973362c1275479cd11450329c6fc702c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c247d5dfdd83ffd9c832a76a64c1b11"><td class="memItemLeft" align="right" valign="top"><a id="a0c247d5dfdd83ffd9c832a76a64c1b11"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CalcFD</b> ()</td></tr>
+<tr class="separator:a0c247d5dfdd83ffd9c832a76a64c1b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab89c13384d574e447585c4a7d56ebffe"><td class="memItemLeft" align="right" valign="top"><a id="ab89c13384d574e447585c4a7d56ebffe"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>assigncentroid</b> (const std::vector&lt; double &gt; &amp;vecin)</td></tr>
+<tr class="separator:ab89c13384d574e447585c4a7d56ebffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5fbfa84ee21cbe1beea75b6b7ec1ce1"><td class="memItemLeft" align="right" valign="top"><a id="ab5fbfa84ee21cbe1beea75b6b7ec1ce1"></a>
+const <a class="el" href="class_array_vec.html">ArrayVec</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>jac_ptr</b> () const</td></tr>
+<tr class="separator:ab5fbfa84ee21cbe1beea75b6b7ec1ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85728c3aeae65eb99995f2cbbbb9d967"><td class="memItemLeft" align="right" valign="top"><a id="a85728c3aeae65eb99995f2cbbbb9d967"></a>
+const <a class="el" href="class_array_vec.html">ArrayVec</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>hes_ptr</b> () const</td></tr>
+<tr class="separator:a85728c3aeae65eb99995f2cbbbb9d967"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a204e200f0695a6a54c73cf5ea29a0403"><td class="memItemLeft" align="right" valign="top"><a id="a204e200f0695a6a54c73cf5ea29a0403"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>SurfCentroid</b> (int a)</td></tr>
 <tr class="separator:a204e200f0695a6a54c73cf5ea29a0403"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,12 +138,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>MakeValid</b> ()</td>
 <tr class="memitem:ad56346f0c316272f39eed462e2d3ffd2 inherit pub_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="ad56346f0c316272f39eed462e2d3ffd2"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>PreCalc</b> ()</td></tr>
 <tr class="separator:ad56346f0c316272f39eed462e2d3ffd2 inherit pub_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea1b7e01474e40c7eeeef4c496360028 inherit pub_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="aea1b7e01474e40c7eeeef4c496360028"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>assign</b> (vector&lt; vector&lt; double &gt; const * &gt; &amp;coords)</td></tr>
-<tr class="separator:aea1b7e01474e40c7eeeef4c496360028 inherit pub_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef4f569537dd5e43a5e45a797a097e96 inherit pub_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="aef4f569537dd5e43a5e45a797a097e96"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>assign</b> (int pRepI, const vector&lt; double &gt; &amp;pRep)</td></tr>
-<tr class="separator:aef4f569537dd5e43a5e45a797a097e96 inherit pub_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b1bf2606a9b138b9ce0d23cf16b990e inherit pub_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="a2b1bf2606a9b138b9ce0d23cf16b990e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>assign</b> (<a class="el" href="mesh_8hpp.html#a10331edf942a4cd325f15560687efdd2">grid::coordlist</a> &amp;coords)</td></tr>
+<tr class="separator:a2b1bf2606a9b138b9ce0d23cf16b990e inherit pub_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472d7292f9a0130d99cffd7613a9d70b inherit pub_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="a472d7292f9a0130d99cffd7613a9d70b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>assign</b> (int pRepI, const std::vector&lt; double &gt; &amp;pRep)</td></tr>
+<tr class="separator:a472d7292f9a0130d99cffd7613a9d70b inherit pub_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a010f9549ab3b251ec91b3ea7a83c6dc0 inherit pub_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="a010f9549ab3b251ec91b3ea7a83c6dc0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ReturnDat</b> (double &amp;a, <a class="el" href="class_array_vec.html">ArrayVec</a>&lt; double &gt; &amp;b, <a class="el" href="class_array_vec.html">ArrayVec</a>&lt; double &gt; &amp;c)</td></tr>
 <tr class="separator:a010f9549ab3b251ec91b3ea7a83c6dc0 inherit pub_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,15 +177,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetNFun</b> (int n)
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a91bbc89f4be4dab6844e4cc2069ff058"><td class="memItemLeft" align="right" valign="top"><a id="a91bbc89f4be4dab6844e4cc2069ff058"></a>
-vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>centroid</b></td></tr>
-<tr class="separator:a91bbc89f4be4dab6844e4cc2069ff058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50d6b3f686c711326f3a50e331cbc8d"><td class="memItemLeft" align="right" valign="top"><a id="ac50d6b3f686c711326f3a50e331cbc8d"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>centroid</b></td></tr>
+<tr class="separator:ac50d6b3f686c711326f3a50e331cbc8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cf7ed4187f81c26f2251a4078b9066d"><td class="memItemLeft" align="right" valign="top"><a id="a2cf7ed4187f81c26f2251a4078b9066d"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>edgeLength</b> =0.0</td></tr>
 <tr class="separator:a2cf7ed4187f81c26f2251a4078b9066d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcf556b00475fcece56328f066bd737b"><td class="memItemLeft" align="right" valign="top"><a id="abcf556b00475fcece56328f066bd737b"></a>
-vector&lt; vector&lt; double &gt; const * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>coords</b></td></tr>
-<tr class="separator:abcf556b00475fcece56328f066bd737b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a575dbf0ca26ddc579b0a648e8db370e6"><td class="memItemLeft" align="right" valign="top"><a id="a575dbf0ca26ddc579b0a648e8db370e6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>calcDeriv</b> = true</td></tr>
+<tr class="separator:a575dbf0ca26ddc579b0a648e8db370e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae21310274046cf448f1d31db5b4e5d4d"><td class="memItemLeft" align="right" valign="top"><a id="ae21310274046cf448f1d31db5b4e5d4d"></a>
+<a class="el" href="mesh_8hpp.html#a10331edf942a4cd325f15560687efdd2">grid::coordlist</a>&#160;</td><td class="memItemRight" valign="bottom"><b>coords</b></td></tr>
+<tr class="separator:ae21310274046cf448f1d31db5b4e5d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4db07b33e1738dd633c933b7ee829ba8"><td class="memItemLeft" align="right" valign="top"><a id="a4db07b33e1738dd633c933b7ee829ba8"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>fun</b></td></tr>
 <tr class="separator:a4db07b33e1738dd633c933b7ee829ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,9 +202,9 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>fun</b></td></tr>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>nCoord</b></td></tr>
 <tr class="separator:a369a8f58bfd23a0b7dc36b96e132388f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_coord_func"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_coord_func')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_coord_func.html">CoordFunc</a></td></tr>
-<tr class="memitem:abcf556b00475fcece56328f066bd737b inherit pro_attribs_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="abcf556b00475fcece56328f066bd737b"></a>
-vector&lt; vector&lt; double &gt; const * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>coords</b></td></tr>
-<tr class="separator:abcf556b00475fcece56328f066bd737b inherit pro_attribs_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae21310274046cf448f1d31db5b4e5d4d inherit pro_attribs_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="ae21310274046cf448f1d31db5b4e5d4d"></a>
+<a class="el" href="mesh_8hpp.html#a10331edf942a4cd325f15560687efdd2">grid::coordlist</a>&#160;</td><td class="memItemRight" valign="bottom"><b>coords</b></td></tr>
+<tr class="separator:ae21310274046cf448f1d31db5b4e5d4d inherit pro_attribs_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4db07b33e1738dd633c933b7ee829ba8 inherit pro_attribs_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="a4db07b33e1738dd633c933b7ee829ba8"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>fun</b></td></tr>
 <tr class="separator:a4db07b33e1738dd633c933b7ee829ba8 inherit pro_attribs_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -224,17 +236,17 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>nFun</b></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_coord_func"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_coord_func')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_coord_func.html">CoordFunc</a></td></tr>
-<tr class="memitem:a83e56aa1cc60e8124d9f90e9ccbed0eb inherit pro_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="a83e56aa1cc60e8124d9f90e9ccbed0eb"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_func.html#a83e56aa1cc60e8124d9f90e9ccbed0eb">MakeValidField</a> (vector&lt; double &gt; const *mp)</td></tr>
-<tr class="memdesc:a83e56aa1cc60e8124d9f90e9ccbed0eb inherit pro_methods_class_coord_func"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_coord_func.html">CoordFunc</a> supports the same stuff as tri func but can have any number of points. <br /></td></tr>
-<tr class="separator:a83e56aa1cc60e8124d9f90e9ccbed0eb inherit pro_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc0d5e08d771d2f219682f2cd276f4f inherit pro_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="aabc0d5e08d771d2f219682f2cd276f4f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_coord_func.html#aabc0d5e08d771d2f219682f2cd276f4f">MakeValidField</a> (std::vector&lt; double &gt; const *mp)</td></tr>
+<tr class="memdesc:aabc0d5e08d771d2f219682f2cd276f4f inherit pro_methods_class_coord_func"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_coord_func.html">CoordFunc</a> supports the same stuff as tri func but can have any number of points. <br /></td></tr>
+<tr class="separator:aabc0d5e08d771d2f219682f2cd276f4f inherit pro_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50d9dcc143be1208139b0f85e79e3559 inherit pro_methods_class_coord_func"><td class="memItemLeft" align="right" valign="top"><a id="a50d9dcc143be1208139b0f85e79e3559"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>InitialiseArrays</b> ()</td></tr>
 <tr class="separator:a50d9dcc143be1208139b0f85e79e3559 inherit pro_methods_class_coord_func"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_r_s_v_smath_8hpp_source.html#l00201">201</a> of file <a class="el" href="_r_s_v_smath_8hpp_source.html">RSVSmath.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_r_s_v_smath_8hpp_source.html#l00210">210</a> of file <a class="el" href="_r_s_v_smath_8hpp_source.html">RSVSmath.hpp</a>.</p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
 <li>incl/<a class="el" href="_r_s_v_smath_8hpp_source.html">RSVSmath.hpp</a></li>
 <li>src/rsvs/<a class="el" href="_r_s_v_smath_8cpp_source.html">RSVSmath.cpp</a></li>

@@ -27,17 +27,23 @@ var hierarchy =
     ] ],
     [ "ArrayStruct< triangle >", "class_array_struct.html", [
       [ "SnakStruct< triangle >", "class_snak_struct.html", [
-        [ "TriStruct< triangle >", "class_tri_struct.html", null ]
+        [ "TriStruct< triangle >", "class_tri_struct.html", [
+          [ "triarray", "classtriarray.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "ArrayStruct< trianglepoint >", "class_array_struct.html", [
       [ "SnakStruct< trianglepoint >", "class_snak_struct.html", [
-        [ "TriStruct< trianglepoint >", "class_tri_struct.html", null ]
+        [ "TriStruct< trianglepoint >", "class_tri_struct.html", [
+          [ "tripointarray", "classtripointarray.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "ArrayStruct< trianglesurf >", "class_array_struct.html", [
       [ "SnakStruct< trianglesurf >", "class_snak_struct.html", [
-        [ "TriStruct< trianglesurf >", "class_tri_struct.html", null ]
+        [ "TriStruct< trianglesurf >", "class_tri_struct.html", [
+          [ "trisurfarray", "classtrisurfarray.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "ArrayStruct< vert >", "class_array_struct.html", null ],
@@ -67,6 +73,7 @@ var hierarchy =
     ] ],
     [ "coordvec", "classcoordvec.html", null ],
     [ "rsvstest::customtest", "classrsvstest_1_1customtest.html", null ],
+    [ "param::dev::devparam", "classparam_1_1dev_1_1devparam.html", null ],
     [ "std::exception", null, [
       [ "std::logic_error", null, [
         [ "rsvs3d::rsvs_exception", "classrsvs3d_1_1rsvs__exception.html", null ]
@@ -82,6 +89,9 @@ var hierarchy =
     [ "param::grid", "classparam_1_1grid.html", null ],
     [ "HashedVector< T, Q, R >", "class_hashed_vector.html", [
       [ "HashedMap< T, Q, R >", "class_hashed_map.html", null ],
+      [ "HashedVectorPair< T, Q, R, S >", "class_hashed_vector_pair.html", [
+        [ "SparseMatrixTriplet", "class_sparse_matrix_triplet.html", null ]
+      ] ],
       [ "HashedVectorSafe< T, Q, R >", "class_hashed_vector_safe.html", null ]
     ] ],
     [ "HashedVector< int, int >", "class_hashed_vector.html", null ],
@@ -101,12 +111,18 @@ var hierarchy =
       [ "surf", "classsurf.html", null ]
     ] ],
     [ "tetgenmesh::optparameters", "classtetgenmesh_1_1optparameters.html", null ],
+    [ "param::outputtemplate", "classparam_1_1outputtemplate.html", [
+      [ "param::tecplottemplate", "classparam_1_1tecplottemplate.html", null ]
+    ] ],
     [ "param::parameters", "classparam_1_1parameters.html", null ],
+    [ "parse::ParserOutput", "classparse_1_1_parser_output.html", null ],
     [ "tetgenio::pointparam", "structtetgenio_1_1pointparam.html", null ],
     [ "tetgenio::polygon", "structtetgenio_1_1polygon.html", null ],
     [ "param::rsvs", "classparam_1_1rsvs.html", null ],
     [ "RSVScalc", "class_r_s_v_scalc.html", null ],
     [ "integrate::RSVSclass", "classintegrate_1_1_r_s_v_sclass.html", null ],
+    [ "param::dev::rsvseps", "classparam_1_1dev_1_1rsvseps.html", null ],
+    [ "integrate::RSVStecplot", "classintegrate_1_1_r_s_v_stecplot.html", null ],
     [ "selfint_event", "classselfint__event.html", null ],
     [ "snake", "classsnake.html", null ],
     [ "param::snaking", "classparam_1_1snaking.html", null ],
@@ -118,6 +134,7 @@ var hierarchy =
       [ "trianglepoint", "classtrianglepoint.html", null ],
       [ "trianglesurf", "classtrianglesurf.html", null ]
     ] ],
+    [ "sparsetripletelement< T >", "classsparsetripletelement.html", null ],
     [ "dbg::StackFrame", "structdbg_1_1_stack_frame.html", null ],
     [ "tecplotfile", "classtecplotfile.html", null ],
     [ "tetgenbehavior", "classtetgenbehavior.html", null ],

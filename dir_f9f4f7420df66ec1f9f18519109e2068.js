@@ -13,24 +13,19 @@ var dir_f9f4f7420df66ec1f9f18519109e2068 =
     [ "postprocessing.hpp", "postprocessing_8hpp.html", "postprocessing_8hpp" ],
     [ "RSVSalgorithm.hpp", "_r_s_v_salgorithm_8hpp.html", "_r_s_v_salgorithm_8hpp" ],
     [ "RSVScalc.hpp", "_r_s_v_scalc_8hpp.html", "_r_s_v_scalc_8hpp" ],
+    [ "RSVScalctools.hpp", "_r_s_v_scalctools_8hpp.html", "_r_s_v_scalctools_8hpp" ],
     [ "RSVSclass.hpp", "_r_s_v_sclass_8hpp.html", [
+      [ "RSVStecplot", "classintegrate_1_1_r_s_v_stecplot.html", "classintegrate_1_1_r_s_v_stecplot" ],
       [ "RSVSclass", "classintegrate_1_1_r_s_v_sclass.html", "classintegrate_1_1_r_s_v_sclass" ]
     ] ],
     [ "RSVSintegration.hpp", "_r_s_v_sintegration_8hpp.html", "_r_s_v_sintegration_8hpp" ],
     [ "rsvsjson.hpp", "rsvsjson_8hpp.html", "rsvsjson_8hpp" ],
-    [ "RSVSmath.hpp", "_r_s_v_smath_8hpp.html", [
-      [ "TriFunc", "class_tri_func.html", "class_tri_func" ],
-      [ "CoordFunc", "class_coord_func.html", "class_coord_func" ],
-      [ "Volume", "class_volume.html", "class_volume" ],
-      [ "Area", "class_area.html", "class_area" ],
-      [ "LengthEdge", "class_length_edge.html", "class_length_edge" ],
-      [ "Volume2", "class_volume2.html", "class_volume2" ],
-      [ "SurfCentroid", "class_surf_centroid.html", "class_surf_centroid" ]
-    ] ],
+    [ "RSVSmath.hpp", "_r_s_v_smath_8hpp.html", "_r_s_v_smath_8hpp" ],
     [ "RSVSmath_automatic.hpp", "_r_s_v_smath__automatic_8hpp_source.html", null ],
     [ "snake.hpp", "snake_8hpp.html", "snake_8hpp" ],
     [ "snakeengine.hpp", "snakeengine_8hpp.html", "snakeengine_8hpp" ],
     [ "snakstruct_incl.cpp", "snakstruct__incl_8cpp.html", "snakstruct__incl_8cpp" ],
+    [ "SQPstep.hpp", "_s_q_pstep_8hpp.html", "_s_q_pstep_8hpp" ],
     [ "test.hpp", "test_8hpp.html", "test_8hpp" ],
     [ "tetgenrsvs.hpp", "tetgenrsvs_8hpp.html", "tetgenrsvs_8hpp" ],
     [ "triangulate.hpp", "triangulate_8hpp.html", "triangulate_8hpp" ],

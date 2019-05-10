@@ -3,6 +3,8 @@ var searchData=
   ['initboundary',['initboundary',['../classparam_1_1snaking.html#a26dfb077ae8c8b1dbccf243bf7498cea',1,'param::snaking']]],
   ['inputpoints',['inputpoints',['../classparam_1_1voronoi.html#aad718c5b74e989fb7830b27302178e61',1,'param::voronoi']]],
   ['insertvertexflags',['insertvertexflags',['../classtetgenmesh_1_1insertvertexflags.html',1,'tetgenmesh']]],
+  ['integration_5ftest_2ecpp',['integration_test.cpp',['../integration__test_8cpp.html',1,'']]],
+  ['intersectlinesphere',['IntersectLineSphere',['../meshprocessing_8hpp.html#a1f8605bf8d72e0ddf7281d6f0d4e8bdc',1,'meshprocessing.cpp']]],
   ['io_5fsafe',['io_safe',['../classtetgen_1_1io__safe.html',1,'tetgen']]],
   ['ioin',['ioin',['../classparam_1_1ioin.html',1,'param']]],
   ['ioout',['ioout',['../classparam_1_1ioout.html',1,'param']]],

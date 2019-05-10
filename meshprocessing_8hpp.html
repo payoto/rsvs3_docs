@@ -108,6 +108,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a31a99fee839904090148fcec0d7a6967"><td class="memItemLeft" align="right" valign="top"><a id="a31a99fee839904090148fcec0d7a6967"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>FlattenBoundaryFaces</b> (<a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
 <tr class="separator:a31a99fee839904090148fcec0d7a6967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be585d0607ccb04cf66b34e825b352a"><td class="memItemLeft" align="right" valign="top"><a id="a3be585d0607ccb04cf66b34e825b352a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>TriangulateAllFaces</b> (<a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
+<tr class="separator:a3be585d0607ccb04cf66b34e825b352a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dfb5bc095c9772b0d00b653aa6c36f1"><td class="memItemLeft" align="right" valign="top"><a id="a7dfb5bc095c9772b0d00b653aa6c36f1"></a>
 std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>FindHolesInSnake</b> (const <a class="el" href="classsnake.html">snake</a> &amp;snakein, const <a class="el" href="class_hashed_vector.html">HashedVector</a>&lt; int, int &gt; &amp;uncertainVert)</td></tr>
 <tr class="separator:a7dfb5bc095c9772b0d00b653aa6c36f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,6 +156,42 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
 <tr class="memitem:a2390b0dc80835c5ca976363c11b373a2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshprocessing_8hpp.html#a2390b0dc80835c5ca976363c11b373a2">CalculateEdgeLengths</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
 <tr class="memdesc:a2390b0dc80835c5ca976363c11b373a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the edge lengths.  <a href="#a2390b0dc80835c5ca976363c11b373a2">More...</a><br /></td></tr>
 <tr class="separator:a2390b0dc80835c5ca976363c11b373a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b195df49fb109ef002350ada520b58"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshprocessing_8hpp.html#ae5b195df49fb109ef002350ada520b58">CoordInVolume</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
+<tr class="memdesc:ae5b195df49fb109ef002350ada520b58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a vector of coordinates of points probably inside volumes.  <a href="#ae5b195df49fb109ef002350ada520b58">More...</a><br /></td></tr>
+<tr class="separator:ae5b195df49fb109ef002350ada520b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa32706e1c7b2d8be34e2a9c4fca7bbca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshprocessing_8hpp.html#aa32706e1c7b2d8be34e2a9c4fca7bbca">VolumeCentroids</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
+<tr class="memdesc:aa32706e1c7b2d8be34e2a9c4fca7bbca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a vector of coordinates of points at the volume pseudo centroid.  <a href="#aa32706e1c7b2d8be34e2a9c4fca7bbca">More...</a><br /></td></tr>
+<tr class="separator:aa32706e1c7b2d8be34e2a9c4fca7bbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70682c934d63abb98a23e7d37b4f5416"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshprocessing_8hpp.html#a70682c934d63abb98a23e7d37b4f5416">VolumeInternalLayers</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin, int nLayers)</td></tr>
+<tr class="memdesc:a70682c934d63abb98a23e7d37b4f5416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns points on edges between volume pseudo centroid and vertices.  <a href="#a70682c934d63abb98a23e7d37b4f5416">More...</a><br /></td></tr>
+<tr class="separator:a70682c934d63abb98a23e7d37b4f5416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27eee5546f47511fafef8b72b6843a7e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshprocessing_8hpp.html#a27eee5546f47511fafef8b72b6843a7e">SurfaceCentroids</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
+<tr class="memdesc:a27eee5546f47511fafef8b72b6843a7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a vector of coordinates of points at the surfaces pseudo centroid.  <a href="#a27eee5546f47511fafef8b72b6843a7e">More...</a><br /></td></tr>
+<tr class="separator:a27eee5546f47511fafef8b72b6843a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a962dc7d3bb4b656d6f8a58a2dd18a5c0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshprocessing_8hpp.html#a962dc7d3bb4b656d6f8a58a2dd18a5c0">SurfaceInternalLayers</a> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin, int nLayers)</td></tr>
+<tr class="memdesc:a962dc7d3bb4b656d6f8a58a2dd18a5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns points on edges between surface pseudo centroid and vertices.  <a href="#a962dc7d3bb4b656d6f8a58a2dd18a5c0">More...</a><br /></td></tr>
+<tr class="separator:a962dc7d3bb4b656d6f8a58a2dd18a5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a067d27b427bf84a31e637ed2920eca6c"><td class="memItemLeft" align="right" valign="top"><a id="a067d27b427bf84a31e637ed2920eca6c"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>CotanLaplacianWeight</b> (const std::vector&lt; double &gt; &amp;centre, const std::vector&lt; double &gt; &amp;p_im1, const std::vector&lt; double &gt; &amp;p_i, const std::vector&lt; double &gt; &amp;p_ip1, <a class="el" href="classcoordvec.html">coordvec</a> &amp;temp1, <a class="el" href="classcoordvec.html">coordvec</a> &amp;temp2)</td></tr>
+<tr class="separator:a067d27b427bf84a31e637ed2920eca6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a2756c4a49f20b5ab9f4a6a07acd1ca"><td class="memItemLeft" align="right" valign="top"><a id="a4a2756c4a49f20b5ab9f4a6a07acd1ca"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>VertexLaplacianVector</b> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin, const <a class="el" href="classvert.html">vert</a> *vertsmooth, <a class="el" href="classcoordvec.html">coordvec</a> &amp;lapVec, bool isOrdered=false)</td></tr>
+<tr class="separator:a4a2756c4a49f20b5ab9f4a6a07acd1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f460070feae0338711dbfed80171c1"><td class="memItemLeft" align="right" valign="top"><a id="a30f460070feae0338711dbfed80171c1"></a>
+<a class="el" href="classcoordvec.html">coordvec</a>&#160;</td><td class="memItemRight" valign="bottom"><b>VertexLaplacianVector</b> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin, int vertIndex)</td></tr>
+<tr class="separator:a30f460070feae0338711dbfed80171c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f8605bf8d72e0ddf7281d6f0d4e8bdc"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="meshprocessing_8hpp.html#a1f8605bf8d72e0ddf7281d6f0d4e8bdc">IntersectLineSphere</a> (const <a class="el" href="classcoordvec.html">coordvec</a> &amp;lineVec, const <a class="el" href="classcoordvec.html">coordvec</a> &amp;offset, double sphereRadius)</td></tr>
+<tr class="memdesc:a1f8605bf8d72e0ddf7281d6f0d4e8bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the parametric position along a line at which it intersects a sphere.  <a href="#a1f8605bf8d72e0ddf7281d6f0d4e8bdc">More...</a><br /></td></tr>
+<tr class="separator:a1f8605bf8d72e0ddf7281d6f0d4e8bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ee26667e580640108b148a68e9675a"><td class="memItemLeft" align="right" valign="top"><a id="a56ee26667e580640108b148a68e9675a"></a>
+std::array&lt; double, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>IntersectLineSphere</b> (const <a class="el" href="classcoordvec.html">coordvec</a> &amp;lineVec, const std::vector&lt; double &gt; &amp;linePoint, const <a class="el" href="classcoordvec.html">coordvec</a> &amp;sphereCentre, double sphereRadius)</td></tr>
+<tr class="separator:a56ee26667e580640108b148a68e9675a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f658544476dd54b400faef2f26fd808"><td class="memItemLeft" align="right" valign="top"><a id="a1f658544476dd54b400faef2f26fd808"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>MeshUnitNormals</b> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
+<tr class="separator:a1f658544476dd54b400faef2f26fd808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af75a012d5b87114d43f003233600a07b"><td class="memItemLeft" align="right" valign="top"><a id="af75a012d5b87114d43f003233600a07b"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>MeshLaplacians</b> (const <a class="el" href="classmesh.html">mesh</a> &amp;meshin)</td></tr>
+<tr class="separator:af75a012d5b87114d43f003233600a07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Tools for the mathematical processing of meshes. </p>
@@ -233,7 +272,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
    }
 </pre><p>meshtemp = BuildDomain( {DomInter(x, innerLowerB[0], outerLowerB[0]), DomInter(x, innerLowerB[1], outerLowerB[1]), DomInter(x, innerLowerB[2], outerLowerB[2])}, {DomInter(x, innerUpperB[0], outerUpperB[0]), DomInter(x, innerUpperB[1], outerUpperB[1]), DomInter(x, innerUpperB[2], outerUpperB[2])} ); </p>
 
-<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00445">445</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00484">484</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
 
 </div>
 </div>
@@ -263,7 +302,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The edge angles. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00551">551</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00590">590</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +331,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The edge lengths. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00686">686</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00725">725</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
 
 </div>
 </div>
@@ -332,7 +371,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The vertex curvature. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00581">581</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00620">620</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
 
 </div>
 </div>
@@ -361,7 +400,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The vertex mean edge length. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00656">656</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00695">695</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
 
 </div>
 </div>
@@ -390,7 +429,84 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The vertex minimum edge length. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00628">628</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00667">667</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae5b195df49fb109ef002350ada520b58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5b195df49fb109ef002350ada520b58">&#9670;&nbsp;</a></span>CoordInVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; CoordInVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate a vector of coordinates of points probably inside volumes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The input mesh</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector of coordinates with one coordinate inside each volume </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00745">745</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1f8605bf8d72e0ddf7281d6f0d4e8bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8605bf8d72e0ddf7281d6f0d4e8bdc">&#9670;&nbsp;</a></span>IntersectLineSphere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;double, 2&gt; IntersectLineSphere </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classcoordvec.html">coordvec</a> &amp;&#160;</td>
+          <td class="paramname"><em>lineVec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classcoordvec.html">coordvec</a> &amp;&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sphereRadius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the parametric position along a line at which it intersects a sphere. </p>
+<p>The return value of this function when multiplied by the line direction and added to the reference point gives the coordinate of the intersection points.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">lineVec</td><td>The vector direction followed by the line </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>The vector going from the sphere centre to a point on the line. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">sphereRadius</td><td>The radius of the sphere.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>pair of quadratic roots. Returns infinity if there is not intersection. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l01032">1032</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
 
 </div>
 </div>
@@ -443,7 +559,7 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00137">137</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00176">176</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
 
 </div>
 </div>
@@ -484,7 +600,157 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>DomInter</b> (doubl
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>dot product between surface normals if facing outwards </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00499">499</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00538">538</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a27eee5546f47511fafef8b72b6843a7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27eee5546f47511fafef8b72b6843a7e">&#9670;&nbsp;</a></span>SurfaceCentroids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; SurfaceCentroids </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate a vector of coordinates of points at the surfaces pseudo centroid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The input mesh</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector of coordinates with one coordinate inside each surface </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00860">860</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a962dc7d3bb4b656d6f8a58a2dd18a5c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a962dc7d3bb4b656d6f8a58a2dd18a5c0">&#9670;&nbsp;</a></span>SurfaceInternalLayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; SurfaceInternalLayers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nLayers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns points on edges between surface pseudo centroid and vertices. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The input mesh to process </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nLayers</td><td>The number of layers of points (0: only the centre, 1: layer surroundin the centre)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if the number of layers is below 0.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of points containing the centres and additional points. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00893">893</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa32706e1c7b2d8be34e2a9c4fca7bbca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa32706e1c7b2d8be34e2a9c4fca7bbca">&#9670;&nbsp;</a></span>VolumeCentroids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; VolumeCentroids </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate a vector of coordinates of points at the volume pseudo centroid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The input mesh</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>vector of coordinates with one coordinate inside each volume </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00784">784</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a70682c934d63abb98a23e7d37b4f5416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70682c934d63abb98a23e7d37b4f5416">&#9670;&nbsp;</a></span>VolumeInternalLayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;double&gt; VolumeInternalLayers </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmesh.html">mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nLayers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns points on edges between volume pseudo centroid and vertices. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">meshin</td><td>The input mesh to process </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nLayers</td><td>The number of layers of points (0: only the centre, 1: layer surroundin the centre)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if the number of layers is below 0.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of points containing the centres and additional points. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="meshprocessing_8cpp_source.html#l00816">816</a> of file <a class="el" href="meshprocessing_8cpp_source.html">meshprocessing.cpp</a>.</p>
 
 </div>
 </div>
